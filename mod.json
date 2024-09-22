@@ -5,17 +5,17 @@ displayName: "Iron clouds"
 name: "iron-clouds"
 
 #your name
-author: "EightSquare"
+author: "Eight Squared"
 
 #the fully qualified main class of the mod
-#main: "subvoyage.SubvoyageMod"
+#main: ""
 
 #the mod description as seen in the mod dialog
-description: "Where your hopes will melt and only the need to survive will remain."
-subtitle: "New brutal campaign on an unforgiving planet."
+description: "New campaign on a molten planet."
+subtitle: "New campaign on a molten planet."
 
 #the mod version
-version: 0.1
+version: 110
 
 #the minimum game build required to run this mod
 minGameVersion: 145
