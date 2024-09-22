@@ -1,0 +1,62 @@
+type: flying
+lowAltitude: true
+name: Mjolnir
+description: Dangerous flying unit, equipped with a powerful single-target turret.
+//immunities: [burning, melting]
+outlineColor: 292c3300
+drag: 0.08
+accel: 0.09
+health: 840
+armor: 2
+speed: 3
+hitSize: 30
+flying: true
+faceTarget: false
+circleTarget: false
+weapons: [
+  {
+    name: mjolnir-weapon
+    layerOffset: -1
+    x: 0
+    y: -6
+    reload: 5
+    rotate: true
+    mirror: false
+    shoot: {
+      shots: 2
+      shotDelay: 1
+    }
+    shootSound: railgun
+    bullet: {
+      type: LaserBulletType
+      maxRange: 320
+      length: 320
+      pierceDamageFactor: 0.1
+      scaleLife: true
+      pointEffectSpace: 10
+      lifetime: 22
+      damage: 500
+      inaccuracy: 2
+      //splashDamage: 300
+      //splashDamageRadius: 40
+      //buildingDamageMultiplier: 0.5
+      hitEffect: explosion
+      endEffect: explosion
+      pointEffect: {
+        type: shell
+        particles: 5
+        colorFrom: 1d89bf
+        colorTo: 39ace6
+        length: 1
+        baseLength: 2
+        rotWithParent: true
+        sizeFrom: 6
+        sizeTo: 3
+        sizeInterp: pow2Out
+      }
+      hitEffect: none
+      despawnEffect: none
+      despawnHit: true
+    }
+  }
+]

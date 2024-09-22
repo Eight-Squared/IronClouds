@@ -1,0 +1,64 @@
+type: flying
+lowAltitude: true
+name: Flint
+description: Dangerous flying unit, equipped with a powerful single-target turret.
+//immunities: [burning, melting]
+outlineColor: 052433
+drag: 0.08
+accel: 0.09
+health: 840
+armor: 2
+speed: 3
+hitSize: 18
+flying: true
+faceTarget: false
+circleTarget: false
+weapons: [
+  {
+    name: flint-weapon
+    layerOffset: -1
+    x: 0
+    y: -4
+    reload: 356
+    rotate: true
+    mirror: false
+    shoot: {
+      shots: 1
+      shotDelay: 20
+    }
+    shootSound: railgun
+    bullet: {
+      type: RailBulletType
+      maxRange: 320
+      length: 320
+      pierceDamageFactor: 0.75
+      scaleLife: true
+      pointEffectSpace: 10
+      lifetime: 40
+      damage: 100
+      inaccuracy: 4
+      splashDamage: 300
+      splashDamageRadius: 40
+      buildingDamageMultiplier: 0.5
+      hitEffect: explosion
+      endEffect: explosion
+      suppressionDuration: 240
+      suppressionRange: 96
+      pointEffect: {
+        type: ParticleEffect
+        particles: 5
+        colorFrom: ffd2ae
+        colorTo: e58956
+        length: 1
+        baseLength: 2
+        rotWithParent: true
+        sizeFrom: 6
+        sizeTo: 3
+        sizeInterp: pow2Out
+      }
+      hitEffect: none
+      despawnEffect: none
+      despawnHit: true
+    }
+  }
+]
