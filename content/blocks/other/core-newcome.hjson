@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: Newcome
+description: Core of the base. Armored and stores a medium amount of items.
+requirements: [
+  copper/1600
+]
+isFirstTier: true
+size: 3
+squareSprite: true
+alwaysUnlocked: true
+unitType: lighter
+health: 1450
+itemCapacity: 4500
+unitCapModifier: 8
+category: effect
+research: {
+  planet: serpulo
+  //root: true
+  //name: Asthosus
+  requiresUnlock: false
+}

@@ -1,0 +1,14 @@
+type: Wall
+size: 1
+name: Tungsten wall
+description: A small wall.
+lightningChance: 0.05
+lightningDamage: 20
+lightningColor: 39ace6
+health: 1740
+requirements: [
+  copper/6
+] 
+category: defense
+research: duo
+researchCostMultiplier: 0.5

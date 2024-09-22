@@ -1,0 +1,24 @@
+#the mod name as displayed in-game
+displayName: "Iron clouds"
+
+#the internal name of your mod
+name: "iron-clouds"
+
+#your name
+author: "EightSquare"
+
+#the fully qualified main class of the mod
+#main: "subvoyage.SubvoyageMod"
+
+#the mod description as seen in the mod dialog
+description: "Where your hopes will melt and only the need to survive will remain."
+subtitle: "New brutal campaign on an unforgiving planet."
+
+#the mod version
+version: 0.1
+
+#the minimum game build required to run this mod
+minGameVersion: 145
+
+#this is a java mod
+java: false

@@ -1,0 +1,15 @@
+type: Duct
+name: Tungsten duct
+description: A decent duct.
+category: distribution
+alwaysUnlocked: false
+research: copper
+researchCost: [
+  primal-tungsten/1
+]
+speed: 10
+health: 45
+//bridgeReplacement: 05e-06-ferrinite-duct-bridge
+requirements: [
+  primal-tungsten/10
+]
