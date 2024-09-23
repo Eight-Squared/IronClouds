@@ -1,0 +1,9 @@
+name: Rhenium
+description: A very hard to melt metal.
+hardness: 2
+flammability: 0.2
+explosiveness: 0.1
+research: copper
+cost: 0.8
+charge: 0.2
+color: b8b8b8
