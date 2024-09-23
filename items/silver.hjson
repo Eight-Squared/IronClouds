@@ -1,9 +1,0 @@
-name: Silver
-description: Will have to do instead of silicon.
-hardness: 2
-flammability: 0.2
-explosiveness: 0.1
-research: copper
-cost: 0.8
-charge: 0.2
-color: d3d3d3
