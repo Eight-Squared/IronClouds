@@ -1,0 +1,14 @@
+type: DuctBridge
+name: Tungsten duct bridge
+description: Acts as a bridge for crossing ducts or terrain.
+health: 135
+size: 1
+requirements: [
+  primordial-tungsten/8
+] 
+category: distribution
+research: duo
+squareSprite: false
+range: 4
+speed: 10
+researchCostMultiplier: 0.5

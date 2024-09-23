@@ -1,0 +1,14 @@
+type: Router
+name: Tungsten Router
+description: Distributes input items from ducts to three directions equally. 
+size: 1
+speed: 10
+health: 110
+itemCapacity: 8
+requirements: [
+  primordial-tungsten/5
+]
+squareSprite: false
+category: distribution
+research: duo
+researchCostMultiplier: 0.5
