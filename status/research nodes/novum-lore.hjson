@@ -1,0 +1,9 @@
+name: Novum - Planet
+description: "This planet had formed much later than Serpulo and its surface is comprised of incredibly tough metals. However, for a long period of time Novum remained fully molten. Only recently it cooled just enough for a landing operation to become possible. Novum is incredibly rich in resources and tough chalenges for your machinery, as not just one enemy fraction layed their eyes on this planet's potential. Perhaps your machines will adapt..." 
+alwaysUnlocked: true
+research: {
+  planet: novum
+  root: true
+  name: Novum
+  requiresUnlock: false
+}
