@@ -13,9 +13,4 @@ health: 1450
 itemCapacity: 4500
 unitCapModifier: 8
 category: effect
-research: {
-  planet: serpulo
-  //root: true
-  //name: Asthosus
-  requiresUnlock: false
-}
+research: novum-lore

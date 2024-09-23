@@ -1,5 +1,5 @@
 localizedName: Novum
-description: A deserted planet. Good luck!
+description: A recently formed planet, covered in molten metals.
 alwaysUnlocked: true
 mesh: [
  {
@@ -9,8 +9,8 @@ mesh: [
     divisions: 5
     seed: 88
     radius: 1.229
-    color1: de722f
-    color2: df4917
+    color1: 052433
+    color2: 062935
     octaves: 3.7
     persistence: 1.1
   }
@@ -39,7 +39,7 @@ mesh: [
     persistence: 0.8
   }
   {
-    //demetite
+    //d
     type: NoiseMesh
     planet: novum
     seed: 69
@@ -53,7 +53,7 @@ mesh: [
     mag: 1
   }
   {
-    //barite
+    //b
     type: NoiseMesh
     planet: novum
     divisions: 5
@@ -65,7 +65,7 @@ mesh: [
     persistence: 1.1
   }
   {
-    //radian barite
+    //rb
     type: NoiseMesh
     planet: novum
     divisions: 6
@@ -77,14 +77,14 @@ mesh: [
     persistence: 1.1
   }
   {
-    //red sand
+    //rs
     type: NoiseMesh
     planet: novum
     divisions: 6
     seed: 17
     radius: 1.1
-    color1: dea67d
-    color2: d58b79
+    color1: 39ace6
+    color2: d18f89
     octaves: 5.7
     persistence: 0.9
   }
@@ -153,16 +153,17 @@ generator: {
   max: 100
   radMin: 220
   radMax: 600
-  iceChance: 0.51
+  charChance: 0.51
   carbonChance: 0.32
-  berylChance: 0
-  ferricChance: 0.26
+  basaltChance: 0.41
+  sandChance: 0.26
+  darkChance: 0.39
 }
-sectorSize: 0.64
+sectorSize: 0.8
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
-allowSectorInvasion: false
+allowSectorInvasion: true
 startSector: 12
 orbitSpacing: 1
 radius: 1.2
@@ -171,18 +172,18 @@ drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
-updateLighting: false
-sectorSeed: 64
-bloom: false
+updateLighting: true
+sectorSeed: 6464
+bloom: true
 visible: true
-atmosphereColor: 666359
+atmosphereColor: 323024
 iconColor: 4a3a3c
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
+defaultCore: core-newcome
 parent: sun
 solarSystem: sun
 launchCandidates: []

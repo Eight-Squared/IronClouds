@@ -6,7 +6,7 @@ speed: 10
 health: 110
 itemCapacity: 8
 requirements: [
-  primal-tungsten/5
+  primordial-tungsten/5
 ]
 squareSprite: false
 category: distribution

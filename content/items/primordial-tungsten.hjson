@@ -1,0 +1,9 @@
+name: Primordial tungsten
+description: A metalll.
+hardness: 2
+flammability: 0
+explosiveness: 0
+research: copper
+cost: 0.8
+charge: 0.2
+color: b8b8b8
