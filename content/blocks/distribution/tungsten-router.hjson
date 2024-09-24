@@ -10,5 +10,5 @@ requirements: [
 ]
 squareSprite: false
 category: distribution
-research: duo
+research: tungsten-junction
 researchCostMultiplier: 0.5

@@ -5,7 +5,7 @@ health: 65
 size: 1
 speed: 22
 requirements: [
-  primordial-tungsten/5
+  primordial-tungsten/16
 ]
 squareSprite: true
 category: distribution

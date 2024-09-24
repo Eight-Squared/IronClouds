@@ -4,4 +4,4 @@ gas: true
 temperature: 0.25
 heatCapacity: 0.9
 color: 98999c
-research: water
+research: molten-silver

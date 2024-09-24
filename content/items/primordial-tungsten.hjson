@@ -1,9 +1,9 @@
 name: Primordial tungsten
-description: A metalll.
-hardness: 2
+description: It is a naturally created alloy, rather than an ore. Hardened well throughout its lifetime on the planet.
+hardness: 1
 flammability: 0
 explosiveness: 0
-research: copper
-cost: 0.8
-charge: 0.2
-color: b8b8b8
+research: core-newcome
+cost: 0.0
+charge: 0.1
+color: 666f80

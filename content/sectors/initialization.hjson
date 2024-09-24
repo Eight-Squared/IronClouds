@@ -1,0 +1,9 @@
+difficulty: 3
+planet: novum
+sector: 12
+alwaysUnlocked: true
+research: {
+  parent: novum-lore
+  planet: novum
+  requiresUnlock: false
+}

@@ -2,15 +2,17 @@ type: CoreBlock
 name: Core: Newcome
 description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
-  copper/1600
+  primordial-tungsten/900,
+  silver/500
 ]
 isFirstTier: true
 size: 3
-squareSprite: true
+squareSprite: false
 alwaysUnlocked: true
 unitType: lighter
-health: 1450
+health: 2540
 itemCapacity: 4500
-unitCapModifier: 8
+unitCapModifier: 5
 category: effect
 research: novum-lore
+planet: novum

@@ -14,8 +14,8 @@
   },
   "size": 2,
   "researchCostMultiplier": 0.1,
-  "hasPower": true,
-  "hasItems": true,
+  "hasLiquid": true,
+  "liquidCapacity": 80,
   "itemCapacity": 10,
   "craftEffect": {
     "type": "ParticleEffect",
@@ -33,19 +33,16 @@
   "craftTime": 40,
   "updateEffect": "none",
   "consumes": {
-    "power": 2,
-    "items": {
-      "items": [
-        "lead/1",
-        "copper/2"
-      ]
+    "liquid": {
+      "liquid": "molten-silver",
+      "amount": 1.2
     }
   },
   "requirements": [
-    "copper/90",
-    "lead/120"
+    "primordial-tungsten/90"
   ],
   "category": "crafting",
   "outputItem": "silver/2",
-  "squareSprite": "false"
+  "squareSprite": "false",
+  "research": "light-drill"
 }

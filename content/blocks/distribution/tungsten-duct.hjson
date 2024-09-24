@@ -2,14 +2,15 @@ type: Duct
 name: Tungsten duct
 description: A decent duct.
 category: distribution
-alwaysUnlocked: false
-research: copper
+planet: novum
+alwaysUnlocked: true
+research: core-newcome
 researchCost: [
-  primordial-tungsten/1
+  primordial-tungsten/10
 ]
-speed: 10
+speed: 6
 health: 45
 //bridgeReplacement: 05e-06-ferrinite-duct-bridge
 requirements: [
-  primordial-tungsten/10
+  primordial-tungsten/1
 ]

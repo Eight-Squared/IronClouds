@@ -22,7 +22,7 @@ mesh: [
     radius: 1.22
     seed: 94
     color1: 000000
-    color2: cf4e12
+    color2: 42d0fc
     octaves: 3.7
     persistence: 0.6
   }
@@ -42,15 +42,15 @@ mesh: [
     //d
     type: NoiseMesh
     planet: novum
-    seed: 69
+    seed: 65
     divisions: 5
-    color1: d5c995
-    color2: 666359
-    radius: 1.1
+    color1: 42d0fc
+    color2: 42d0fc
+    radius: 1.211
     octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 1
+    persistence: 0.4
+    scale: 0.1
+    mag: 0.4
   }
   {
     //b
@@ -94,7 +94,7 @@ cloudMesh: [
    //dark
    type: HexSkyMesh
    planet: novum
-   speed: 30
+   speed: 8
    radius: 0.15
    divisions: 6
    color: 2c0405
@@ -107,7 +107,7 @@ cloudMesh: [
    //yellow
    type: HexSkyMesh
    planet: novum
-   speed: 150
+   speed: 115
    radius: 0.16
    divisions: 6
    color: ebb31a
@@ -120,7 +120,7 @@ cloudMesh: [
    //red
    type: HexSkyMesh
    planet: novum
-   speed: 60
+   speed: 9
    radius: 0.17
    divisions: 6
    color: eb4e1a
@@ -133,12 +133,12 @@ cloudMesh: [
    //cyan
    type: HexSkyMesh
    planet: novum
-   speed: 250
+   speed: 600
    radius: 0.18
    divisions: 6
    color: 00ffdd
    octaves: 3
-   persistence: 0.09
+   persistence: 0.07
    scl: 0.04
    thresh: 0.1
   }
@@ -164,6 +164,7 @@ allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
 allowSectorInvasion: true
+autoAssignPlanet: true
 startSector: 12
 orbitSpacing: 1
 radius: 1.2
@@ -172,6 +173,7 @@ drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
+tidaLock: true
 updateLighting: true
 sectorSeed: 6464
 bloom: true
@@ -182,12 +184,15 @@ hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: false
+prebuildBase: true
 defaultCore: core-newcome
 parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "copper",
-  "sand"
+  "primordial-tungsten",
+  "silver",
+  "solid-uranium",
+  "tantalum",
+  "rhenium"
 ]

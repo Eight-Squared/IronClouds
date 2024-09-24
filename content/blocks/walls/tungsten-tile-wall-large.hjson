@@ -10,5 +10,5 @@ requirements: [
   primordial-tungsten/24
 ] 
 category: defense
-research: duo
+research: tungsten-tile-wall
 researchCostMultiplier: 0.5

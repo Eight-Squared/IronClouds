@@ -11,35 +11,27 @@
       "unit": "mjolnir",
       "requirements": [
         {
-          "item": "silicon",
-          "amount": 20
+          "item": "primordial-tungsten",
+          "amount": 50
         },
         {
-          "item": "copper",
-          "amount": 20
-        },
-        {
-          "item": "titanium",
-          "amount": 10
+          "item": "silver",
+          "amount": 65
         }
       ],
-      "time": 300
+      "time": 600
     }
   ],
   "requirements": [
     {
-      "item": "silicon",
+      "item": "primordial-tungsten",
       "amount": 580
     },
     {
-      "item": "lead",
-      "amount": 180
-    },
-    {
-      "item": "primordial-tungsten",
+      "item": "silver",
       "amount": 180
     }
   ],
   "category": "units",
-  "research": "duo"
+  "research": "core-newcome"
 }
