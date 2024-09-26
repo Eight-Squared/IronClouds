@@ -4,7 +4,7 @@ temperature: 4.0
 boilPoint: 0.9
 heatCapacity: 0.0
 viscosity: 1.0
-color: 808080
+color: d9d4d4
 gasColor: 808080
 coolant: false
 capPuddles: false

@@ -1,7 +1,8 @@
 name: Molten uranium
-description: splendid. 
-boilPoint: 0.5
-heatCapacity: 0.5
-color: 000000
+description: Well, that was unexpected. 
+boilPoint: 0.9
+color: 28caf2
+coolant: false
 gasColor: 000000
+temperature: 9.2
 research: molten-silver

@@ -1,7 +1,7 @@
 name: Iron
-description: JuSt LiKe In ThE MoD NaMe ???? O_o
+description: Iron that evaporated from the surface of Novum.
 gas: true
-temperature: 0.25
-heatCapacity: 0.9
+temperature: 7.5
+coolant: false
 color: 98999c
 research: molten-silver
