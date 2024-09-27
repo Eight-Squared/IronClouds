@@ -28,7 +28,7 @@
   "research": "core-newcome",
   "researchCost": [
     {
-      "primordial-tungsten",
+      "item": "primordial-tungsten",
       "amount": 15
     }
   ],
