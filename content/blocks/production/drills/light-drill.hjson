@@ -26,8 +26,11 @@
   ],
   "category": "production",
   "research": "core-newcome",
-researchCost: [
-primordial-tungsten/20
-]
+  "researchCost": [
+    {
+      "primordial-tungsten",
+      "amount": 15
+    }
+  ],
   "squareSprite": "false"
 }
