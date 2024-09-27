@@ -27,9 +27,7 @@
   "category": "production",
   "research": "core-newcome",
 researchCost: [
-{
 primordial-tungsten/20
-}
 ]
   "squareSprite": "false"
 }
