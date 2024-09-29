@@ -43,8 +43,8 @@
           cone: -360,
           lenFrom: 5,
           lenTo: 0,
-          colorFrom: A9D8FFFF,
-          colorTo: 66B1FFFF
+          colorFrom: 000000FF,
+          colorTo: 000000FF
         },
         hitEffect: {
           type: ParticleEffect,
@@ -56,15 +56,15 @@
           cone: -360,
           lenFrom: 5,
           lenTo: 0,
-          colorFrom: A9D8FFFF,
-          colorTo: 66B1FFFF
+          colorFrom: 000000FF,
+          colorTo: 000000FF
         },
         shootEffect: lightningShoot,
         damage: 9,
-        lightningColor: A9D8FFFF,
-        lightning: 5,
+        lightningColor: FFFFFFFF,
+        lightning: 3,
         lightningDamage: 1,
-        lightningLength: 4,
+        lightningLength: 90,
         lightningCone: 360,
         height: 8,
         width: 8,
