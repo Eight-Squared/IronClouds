@@ -29,7 +29,7 @@
       x: 0,
       y: 0,
       shootY: 3,
-      reload: 17,
+      reload: 30,
       shootSound: shoot,
       bullet: {
         type: basicBulletType,
