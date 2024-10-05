@@ -126,9 +126,7 @@
           "colorTo": "66B1FFFF"
         },
         "trailInterval": 9,
-        "trailChance": 1
-      },
-      {
+        "trailChance": 1,
       "name": "big-main",
       "x": 0,
       "y": 0,
@@ -151,7 +149,7 @@
           "moveRot": 12
           }
         ]
-      }
+      
     }
   ]
 }
