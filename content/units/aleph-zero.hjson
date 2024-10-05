@@ -43,6 +43,7 @@
         "width": 10,
         "height": 10,
         "sprite": "circle-bullet",
+        "layerOffset": -1,
         "frontColor": "FFFFFF",
         "backColor": "A9D8FFFF",
         "lifetime": 60,
