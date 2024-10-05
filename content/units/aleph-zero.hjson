@@ -147,7 +147,8 @@
           "layer": 1,
           "mirror": true,
           "outline": false,
-          "progress": "warmup"
+          "progress": "warmup",
+          "moveRot": 12
           }
         ]
       }
