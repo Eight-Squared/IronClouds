@@ -23,6 +23,11 @@
   "range": 180,
   "maxRange": 180,
   "aimDst": 180,
+  "parts": [
+    {
+    "aleph-zero-attachers",
+    }
+  ]
   "weapons": [
     {
       "name": "aleph-zero-central",
@@ -117,6 +122,32 @@
         },
         "trailInterval": 9,
         "trailChance": 1
+      },
+      {
+      "name": "big-main",
+      "x": 0,
+      "y": 0,
+      "mirror": false,
+      "top": true,
+      "recoil": 0,
+      "rotate": true,
+      "shootY": 0,
+      "rotateSpeed": 3,
+      "shootSound": "torch",
+      "alwaysContinuous": true,
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-highattach",
+          "layer": 1,
+          "mirror": true,
+          "blending": "additive",
+          "color": "ff2302",
+          "colorTo": "ff2302",
+          "outline": false,
+          "progress": "warmup"
+          }
+        ]
       }
     }
   ]
