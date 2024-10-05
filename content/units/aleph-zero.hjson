@@ -24,10 +24,15 @@
   "maxRange": 180,
   "aimDst": 180,
   "parts": [
-    {
-    "aleph-zero-attachers",
-    }
-  ]
+        {
+          "type": "RegionPart",
+          "suffix": "-attachers",
+          "layer": -1,
+          "mirror": false,
+          "outline": true,
+          "outlineColor": "232530FF"
+          }
+        ]
   "weapons": [
     {
       "name": "aleph-zero-central",
@@ -141,9 +146,6 @@
           "suffix": "-highattach",
           "layer": 1,
           "mirror": true,
-          "blending": "additive",
-          "color": "ff2302",
-          "colorTo": "ff2302",
           "outline": false,
           "progress": "warmup"
           }
