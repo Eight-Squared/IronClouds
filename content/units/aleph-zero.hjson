@@ -32,8 +32,9 @@
       "layerOffset": -1,
       "shootCone": 28,
       "reload": 12,
-      "x": 0,
-      "y": -6,
+      "x": 6,
+      "y": -3,
+      "mirror": true,
       "alternate": false,
       "recoil": 1,
       "shootSound": "laser",
@@ -100,16 +101,6 @@
               "sizeTo": 0,
               "colorFrom": "A9D8FFFF",
               "colorTo": "A9D8FFFF"
-            },
-            {
-              "type": "WaveEffect",
-              "lifetime": 60,
-              "sizeFrom": 60,
-              "sizeTo": 60,
-              "strokeFrom": 4,
-              "strokeTo": 0,
-              "colorFrom": "66B1FFFF",
-              "colorTo": "66B1FFFF"
             }
           ]
         },
