@@ -1,4 +1,5 @@
 {
+  name: Light drill
   type: Drill,
   size: 2,
   tier: 1,
