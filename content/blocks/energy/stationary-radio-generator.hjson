@@ -4,6 +4,7 @@
   type: ThermalGenerator,
   attribute: heat,
   powerProduction: 1.6,
+  size: 2,
   category: power,
   research: silver-power-node,
   drawer: {
@@ -19,24 +20,12 @@
   },
   requirements: [
     {
-      item: copper,
-      amount: 10
+      item: primordial-tungsten,
+      amount: 100
     },
     {
-      item: lead,
-      amount: 15
-    },
-    {
-      item: metaglass,
-      amount: 10
-    },
-    {
-      item: graphite,
-      amount: 8
-    },
-    {
-      item: silicon,
-      amount: 8
+      item: silver,
+      amount: 50
     }
   ]
 }
