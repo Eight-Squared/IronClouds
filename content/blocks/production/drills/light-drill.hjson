@@ -2,6 +2,7 @@
   name: Light drill
   type: Drill,
   size: 2,
+  buildTime: 200,
   tier: 1,
   rotateSpeed: 4,
   drillTime: 45,
