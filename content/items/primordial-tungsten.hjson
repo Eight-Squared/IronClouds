@@ -4,7 +4,6 @@ hardness: 1
 flammability: 0
 explosiveness: 0
 research: core-newcome
-cost: 0.0
+cost: 1
 charge: 0.1
 color: 666f80
-cost: 1
