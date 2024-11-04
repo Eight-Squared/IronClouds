@@ -10,7 +10,7 @@ researchCost: [
 ]
 speed: 6
 health: 45
-//bridgeReplacement: 05e-06-ferrinite-duct-bridge
+bridgeReplacement: tungsten-duct-bridge
 requirements: [
   primordial-tungsten/1
 ]
