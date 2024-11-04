@@ -3,7 +3,7 @@ name: Tungsten duct
 description: A decent duct.
 category: distribution
 planet: novum
-alwaysUnlocked: true
+alwaysUnlocked: false
 research: core-newcome
 researchCost: [
   primordial-tungsten/10
