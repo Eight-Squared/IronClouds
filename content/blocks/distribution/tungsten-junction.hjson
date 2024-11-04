@@ -10,4 +10,6 @@ requirements: [
 squareSprite: true
 category: distribution
 research: tungsten-duct
-//researchCostMultiplier: 0.5
+researchCost: [
+  primordial-tungsten/30
+]
