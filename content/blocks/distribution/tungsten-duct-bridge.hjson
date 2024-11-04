@@ -8,6 +8,9 @@ requirements: [
 ] 
 category: distribution
 research: tungsten-juction
+researchCost: [
+  primordial-tungsten/30
+]
 squareSprite: false
 range: 4
 speed: 20
