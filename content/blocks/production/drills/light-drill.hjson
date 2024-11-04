@@ -1,36 +1,36 @@
 {
-  "type": "Drill",
-  "size": 2,
-  "tier": 1,
-  "rotateSpeed": 4,
-  "drillTime": 45,
-  "liquidBoostIntensity": 1.2,
-  "drawRim": true,
-  "warmupSpeed": 0.0478,
-  "updateEffectChance": 0.05,
-  "hasLiquids": true,
-  "liquidCapacity": 25,
-  "consumes": {
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.31,
-      "booster": true,
-      "optional": true
+  type: Drill,
+  size: 2,
+  tier: 1,
+  rotateSpeed: 4,
+  drillTime: 45,
+  liquidBoostIntensity: 1.2,
+  drawRim: true,
+  warmupSpeed: 0.0478,
+  updateEffectChance: 0.05,
+  hasLiquids: true,
+  liquidCapacity: 25,
+  consumes: {
+    liquid: {
+      liquid: water,
+      amount: 0.31,
+      booster: true,
+      optional: true
     }
   },
-  "requirements": [
+  requirements: [
     {
-      "item": "primordial-tungsten",
-      "amount": 25
+      item: primordial-tungsten,
+      amount: 25
     }
   ],
-  "category": "production",
-  "research": "core-newcome",
-  "researchCost": [
+  category: production,
+  research: core-newcome,
+  researchCost: [
     {
-      "item": "primordial-tungsten",
-      "amount": 15
+      item: primordial-tungsten,
+      amount: 15
     }
   ],
-  "squareSprite": "false"
+  squareSprite: false
 }
