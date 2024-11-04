@@ -4,6 +4,6 @@ hardness: 2
 flammability: 0.2
 explosiveness: 0.1
 research: primordial-tungsten
-cost: 0.8
+cost: 1
 charge: 0.2
 color: 000000
