@@ -4,11 +4,13 @@ description: Distributes input items from ducts to three directions equally.
 size: 1
 speed: 10
 health: 110
-itemCapacity: 8
+itemCapacity: 1
 requirements: [
   primordial-tungsten/5
 ]
 squareSprite: false
 category: distribution
 research: tungsten-junction
-researchCostMultiplier: 0.5
+researchCost: [
+  primordial-tungsten/25
+]
