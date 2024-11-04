@@ -1,37 +1,41 @@
 {
-  "name": "Initial assembly",
-  "type": "UnitFactory",
-  "researchCostMultiplier": 0.3,
-  "size": 4,
-  "consumes": {
-    "power": 5
+  name: Initial assembly,
+  type: UnitFactory,
+  researchCostMultiplier: 0.3,
+  size: 4,
+  consumes: {
+    power: 5
   },
-  "plans": [
+  plans: [
     {
-      "unit": "mjolnir",
-      "requirements": [
+      unit: mjolnir,
+      requirements: [
         {
-          "item": "primordial-tungsten",
-          "amount": 50
+          item: primordial-tungsten,
+          amount: 50
         },
         {
-          "item": "silver",
-          "amount": 65
+          item: silver,
+          amount: 65
         }
       ],
-      "time": 600
+      time: 600
     }
   ],
-  "requirements": [
+  requirements: [
     {
-      "item": "primordial-tungsten",
-      "amount": 580
+      item: primordial-tungsten,
+      amount: 580
     },
     {
-      "item": "silver",
-      "amount": 180
+      item: silver,
+      amount: 180
     }
   ],
-  "category": "units",
-  "research": "core-newcome"
+  category: units,
+  research: core-newcome
+  researchCost: [
+    primordial-tungsten/200,
+    silver/150
+  ]
 }
