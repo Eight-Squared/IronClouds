@@ -4,6 +4,6 @@ hardness: 2
 flammability: 0.2
 explosiveness: 0.1
 research: molten-silver
-cost: 0.8
+cost: 2
 charge: 0.2
 color: d3d3d3
