@@ -11,13 +11,14 @@ silver/50
 powerProduction: 2.5
 generateEffect: {
 type: ParticleEffect
-particles: 5
+region: railHit
+particles: 1
 lifetime: 60
-sizeFrom: 5
-sizeTo: 0
+sizeFrom: 1
+sizeTo: 1
 length: 20
-colorFrom: c093fa
-colorTo: c093fa70
+colorFrom: 2350fc
+colorTo: 69a4f3
 }
 size: 2
 floating: true
