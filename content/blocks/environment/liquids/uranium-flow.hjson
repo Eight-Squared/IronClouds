@@ -11,6 +11,5 @@ liquidMultiplier: 0.8
 albedo: 0.9
 supportsOverlay: true
 attributes: {
-water: -1.15
-heat: 1.15
+radioheat: 2
 }
