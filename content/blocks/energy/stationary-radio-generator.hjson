@@ -13,8 +13,8 @@ generateEffect: {
 type: ParticleEffect
 particles: 6
 lifetime: 60
-sizeFrom: 1
-sizeTo: 1
+sizeFrom: 2
+sizeTo: 4
 length: 1
 colorFrom: 2350fc
 colorTo: 69a4f3
