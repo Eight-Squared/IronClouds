@@ -1,25 +1,24 @@
-{
-  name: Stationary radio generator,
-  description: Produces power when placed on radioactive puddles of uranium.,
-  type: Generator,
-  attribute: water,
-  powerProduction: 1.6,
-  size: 2,
-  category: power,
-  research: silver-power-node,
-  drawer: {
-    type: DrawMulti,
-    drawers: [
-      {
-        type: DrawCrucibleFlame 
-      },
-      {
-        type: DrawDefault 
-      }
-    ]
-  },
-  requirements: [
-      primordial-tungsten/100,
-      silver/50
-  ]
+category: power
+research: {
+parent: silver-power-node
 }
+requirements: [
+primordial-tungsten/45
+silver/50
+]
+powerProduction: 2.5
+generateEffect: {
+type: ParticleEffect
+particles: 5
+lifetime: 60
+sizeFrom: 5
+sizeTo: 0
+length: 20
+colorFrom: c093fa
+colorTo: c093fa70
+}
+size: 2
+floating: true
+ambientSound: hum
+ambientSoundVolume: 0.06
+attribute: spores
