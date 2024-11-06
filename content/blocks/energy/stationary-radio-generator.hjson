@@ -1,4 +1,6 @@
 category: power
+name: Stationary radio generator
+type: ThermalGenerator
 research: {
 parent: silver-power-node
 }
