@@ -23,4 +23,4 @@ size: 2
 floating: true
 ambientSound: hum
 ambientSoundVolume: 0.06
-attribute: spores
+attribute: radio-heat
