@@ -19,13 +19,7 @@
     ]
   },
   requirements: [
-    {
-      item: primordial-tungsten,
-      amount: 100
-    },
-    {
-      item: silver,
-      amount: 50
-    }
+      primordial-tungsten/100,
+      silver/50
   ]
 }
