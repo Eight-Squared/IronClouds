@@ -10,4 +10,7 @@ cacheLayer: cryofluid
 liquidMultiplier: 0.8
 albedo: 0.9
 supportsOverlay: true
-attribute: heat
+attributes: {
+water: -1.15
+heat: 1.15
+}
