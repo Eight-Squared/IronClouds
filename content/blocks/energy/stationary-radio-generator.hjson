@@ -23,4 +23,5 @@ size: 2
 floating: true
 ambientSound: hum
 ambientSoundVolume: 0.06
-attribute: radio-heat
+attribute: heat
+floats: true
