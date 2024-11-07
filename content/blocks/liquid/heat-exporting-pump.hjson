@@ -4,6 +4,7 @@ description: Pumps liquids from liquid tiles.
 size: 4
 category: liquid
 squareSprite: false
+hasShadow: false
 research: light-drill
 researchCost: [
   primordial-tungsten/100
