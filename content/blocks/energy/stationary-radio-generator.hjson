@@ -1,12 +1,11 @@
 category: power
 name: Stationary radio generator
 type: ThermalGenerator
-research: {
-parent: silver-power-node
-requirements: [
+research: silver-power-node
+researchCost: [
 primordial-tungsten/30
 silver/15
-}
+]
 requirements: [
 primordial-tungsten/45
 silver/50
