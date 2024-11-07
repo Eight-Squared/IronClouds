@@ -3,6 +3,9 @@ name: Stationary radio generator
 type: ThermalGenerator
 research: {
 parent: silver-power-node
+requirements: [
+primordial-tungsten/30
+silver/15
 }
 requirements: [
 primordial-tungsten/45
