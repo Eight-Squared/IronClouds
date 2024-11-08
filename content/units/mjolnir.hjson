@@ -24,12 +24,14 @@ weapons: [
     rotate: true
     mirror: false
     shoot: {
+      shootY: 20
       shots: 2
       shotDelay: 1
     }
     shootSound: railgun
     bullet: {
       type: LaserBulletType
+      shootY: 5
       maxRange: 320
       length: 320
       pierceDamageFactor: 0.1
