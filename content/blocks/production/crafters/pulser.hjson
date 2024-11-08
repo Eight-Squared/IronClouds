@@ -19,7 +19,7 @@
   "itemCapacity": 10,
   "craftEffect": {
     "type": "massiveExplosion",
-    "particles": 1,
+    "particles": 9,
     "length": 20,
     "baseLength": 20,
     "offset": 3,
@@ -46,6 +46,6 @@
     "lead/120"
   ],
   "category": "crafting",
-  "outputItem": "silver/2",
+  "outputItem": "iron/2",
   "squareSprite": "false"
 }
