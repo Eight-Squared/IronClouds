@@ -19,19 +19,17 @@ weapons: [
     layerOffset: -1
     x: 0
     y: -6
-    shootY: 40
+    shootY: 30
     reload: 5
     rotate: true
     mirror: false
     shoot: {
-      shootY: 20
       shots: 2
       shotDelay: 1
     }
     shootSound: railgun
     bullet: {
       type: LaserBulletType
-      shootY: 5
       maxRange: 320
       length: 320
       pierceDamageFactor: 0.1
