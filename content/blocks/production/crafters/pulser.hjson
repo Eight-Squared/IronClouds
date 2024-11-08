@@ -46,6 +46,6 @@
     "lead/120"
   ],
   "category": "crafting",
-  "outputItem": "iron/2",
+  "outputLiquid": "iron/2",
   "squareSprite": "false"
 }
