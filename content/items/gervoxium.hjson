@@ -1,3 +1,5 @@
 type: item
 name: Gervoxium
 cost: 3
+research: silver
+description: "an advanced material"
