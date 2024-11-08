@@ -1,9 +1,9 @@
 name: Silver
 description: Will have to do instead of silicon.
 hardness: 2
-flammability: 0.2
-explosiveness: 0.1
+flammability: 0
+explosiveness: 0
 research: molten-silver
 cost: 2
-charge: 0.2
+charge: 0.4
 color: d3d3d3
