@@ -11,4 +11,7 @@ requirements: [
 ] 
 category: defense
 research: tungsten-tile-wall
+researchCost: [
+  primordial-tungsten/250
+]
 researchCostMultiplier: 0.5
