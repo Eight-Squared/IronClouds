@@ -5,7 +5,7 @@ description: A big wall.
 lightningChance: 0.1
 lightningDamage: 30
 lightningColor: 39ace6
-health: 6700
+health: 8700
 requirements: [
   primordial-tungsten/24
 ] 
@@ -14,4 +14,3 @@ research: tungsten-tile-wall
 researchCost: [
   primordial-tungsten/250
 ]
-researchCostMultiplier: 0.5
