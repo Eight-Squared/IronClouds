@@ -1,0 +1,73 @@
+requirements: [
+primordial-tungsten/140
+]
+size: 4
+category: turret
+research: {
+parent: core-newcome
+researchCost: [ primordial-tungsten/100]
+}
+health: 400
+reload: 20
+recoil: 4
+recoilTime: 120
+cooldownTime: 199
+range: 88
+shootCone: 1
+shake: 2
+shootSound: bladehit
+coolantMultiplier: 0.45
+consumes: {
+power: 14
+coolant: {}
+}
+ammoPerShot: 24
+maxAmmo: 72
+ammoTypes: {
+primordial-tungsten: {
+type: ShrapnelBulletType
+length: 92
+damage: 2300
+pierceArmor: true
+width: 14
+serrations: 4
+lifetime: 20
+shootEffect: [shootBigColor, 
+{
+type: ParticleEffect
+particles: 1
+length: 0
+sizeFrom: 40
+sizeTo: 0
+colorFrom: ffffff
+colorTo: a1b1d1
+lifetime: 20
+}
+]
+toColor: e1e9f0
+hitShake: 4
+ammoMultiplier: 1
+buildingDamageMultiplier: 0.2
+}
+}
+unitSort: strongest
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -top
+mirror: false
+under: true
+}
+{
+type: RegionPart
+suffix: -wing
+progress: warmup
+mirror: true
+under: true
+moveX: 6
+moveY: -6
+}
+]
+}
