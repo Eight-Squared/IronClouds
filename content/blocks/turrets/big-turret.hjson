@@ -70,5 +70,11 @@ under: true
 moveX: 6
 moveY: -6
 }
+{
+type: RegionPart
+prefix: -wing
+mirror: false
+under: true
+}
 ]
 }
