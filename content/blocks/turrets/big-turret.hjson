@@ -3,6 +3,7 @@ primordial-tungsten/140
 ]
 size: 4
 category: turret
+type: Turret
 research: {
 parent: core-newcome
 researchCost: [ primordial-tungsten/100]
