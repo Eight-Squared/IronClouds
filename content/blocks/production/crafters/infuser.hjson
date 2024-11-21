@@ -55,6 +55,11 @@
   craftTime: 40
   updateEffect: none
   consumes: {
+    power: 1
+    items: {
+      items: primordial-tungsten
+      amount: 2
+    }
     liquid: {
       liquid: molten-uranium
       amount: 1.2
