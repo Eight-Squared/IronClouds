@@ -7,7 +7,7 @@ consumes: {
   power: 3
 }
 #minWarmup: 40
-reload: 270
+reload: 12
 range: 320
 shootSound: shoot-big-artillery
 shootEffect: shootBig
@@ -48,8 +48,8 @@ drawer: {
       under: false
       progress: warmup
       moveY: -3
-      moveX: 4
-      moveRot: -10
+      moveX: 6
+      moveRot: -15
     }
     {
       type: RegionPart
@@ -57,9 +57,9 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveY: -6
-      moveX: 6
-      moveRot: -16
+      moveY: -5
+      moveX: 10
+      moveRot: -20
     }
     {
       type: RegionPart
