@@ -3,6 +3,9 @@ name: Lotos
 description: Brings destruction with its blossom.
 size: 4
 squareSprite: false
+consumes: {
+  power: 3
+}
 #minWarmup: 40
 reload: 270
 range: 320
@@ -85,41 +88,3 @@ coolant: {
   amount: 0.2
 }
 shootY: -60
-ammoTypes: {
-  primordial-tungsten: {
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
-    despawnSound: shoot-dull
-    type: BasicBulletType
-    speed: 16
-    lifetime: 80
-    damage: 67
-    pierce: true
-    pierceBuilding: true
-    buildingDamageMultiplier: 0.5
-    width: 9
-    height: 15
-    trailChance: -1
-    trailEffect: shootSmokeTitan
-    trailInterval: 3
-    trailRotation: true
-    trailLength: 16
-    trailWidth: 3
-    fragBullets: 1
-    fragLifeMin: 1
-    fragLifeMax: 1
-    fragVelocityMin: 0
-    fragVelocityMax: 0
-    fragRandomSpread: 0
-    fragSpread: 0
-    fragAngle: 0
-    fragOnHit: false
-    fragBullet: {
-      type: ExplosionBulletType
-      killShooter: false
-      splashDamage: 69
-      splashDamageRadius: 24
-      buildingDamageMultiplier: 0.5
-    }
-  }
-}
