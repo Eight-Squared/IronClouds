@@ -1,0 +1,48 @@
+{
+  type: GenericCrafter
+  name: Infuser
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+      {
+        type: DrawFlame
+        flameColor: 8590a6ae
+      }
+    ]
+  }
+  size: 3
+  hasLiquid: true
+  liquidCapacity: 80
+  itemCapacity: 10
+  craftEffect: {
+    type: ParticleEffect
+    particles: 6
+    length: 200
+    baseLength: 200
+    offset: 30
+    cone: 360
+    lifetime: 5
+    sizeFrom: 2
+    sizeTo: 0
+    colorTo: 093e59ff
+    colorFrom: 093e59ff
+  }
+  craftTime: 40
+  updateEffect: none
+  consumes: {
+    liquid: {
+      liquid: molten-silver
+      amount: 1.2
+    }
+  }
+  requirements: [
+    primordial-tungsten/90
+  ]
+  category: crafting
+  outputItem: silver/2
+  squareSprite: false
+  research: light-drill
+}
