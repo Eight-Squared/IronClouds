@@ -49,7 +49,7 @@ drawer: {
       under: false
       progress: warmup
       moveY: -3
-      moveX: 6
+      moveX: 8
       moveRot: -15
     }
     {
@@ -69,7 +69,7 @@ drawer: {
       under: false
       progress: warmup
       moveY: -3
-      moveX: 3
+      moveX: 5
       moveRot: -6
     }
     {
@@ -88,7 +88,7 @@ drawer: {
         tri: true
         layer: 110
         color: 66B1FFff
-        haloRotateSpeed: -60
+        haloRotateSpeed: -0.9
         haloRadius: 15
         haloRadiusTo: 15
         stroke: 0
