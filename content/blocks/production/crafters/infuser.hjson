@@ -11,6 +11,19 @@
         type: DrawFlame
         flameColor: 8590a6ae
       }
+      {
+        type: DrawParticles
+        color: 66B1FFFF
+        alpha: 0.4
+        blending: additive
+        particleSize: 5
+        reverse: true
+        particleRad: 23
+        particles: 22
+        fadeMargin: 1
+        rotateScl: 7
+        particleLife: 60
+      }
     ]
   }
   size: 3
