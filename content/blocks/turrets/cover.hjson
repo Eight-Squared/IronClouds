@@ -10,7 +10,6 @@ shootEffect: shootBig
 smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
-researchCost
 research: {
    parent: core-newcome
 }
