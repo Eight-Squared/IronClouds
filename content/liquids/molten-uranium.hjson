@@ -2,6 +2,8 @@ name: Molten uranium
 description: Well, that was unexpected. 
 boilPoint: 0.9
 color: 28caf2
+barColor: 3daff6
+lightColor: 48c3f7df
 coolant: false
 gasColor: 000000
 temperature: 9.2
