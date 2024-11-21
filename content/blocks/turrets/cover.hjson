@@ -3,7 +3,7 @@ name: Cover
 description: Fires at enemies over large distances.
 size: 3
 squareSprite: false
-minWarmup: 40
+#minWarmup: 40
 reload: 270
 range: 320
 shootSound: shoot-big-artillery
