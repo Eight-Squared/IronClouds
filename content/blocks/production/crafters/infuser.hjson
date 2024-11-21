@@ -31,7 +31,7 @@
       }
       {
         type: DrawLiquidRegion
-        drawLiquid: molten-uranium
+        drawLiquid: molten-silver
         suffix: -liquid
       }
     ]
