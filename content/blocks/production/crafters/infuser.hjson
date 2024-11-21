@@ -13,6 +13,11 @@
         type: DrawDefault
       }
       {
+        type: DrawLiquidRegion
+        drawLiquid: molten-silver
+        suffix: -liquid
+      }
+      {
         type: DrawFlame
         flameColor: 8590a6ae
       }
@@ -28,11 +33,6 @@
         fadeMargin: 1
         rotateScl: 7
         particleLife: 60
-      }
-      {
-        type: DrawLiquidRegion
-        drawLiquid: molten-silver
-        suffix: -liquid
       }
     ]
   }
