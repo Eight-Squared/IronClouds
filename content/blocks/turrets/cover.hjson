@@ -95,7 +95,7 @@ ammoTypes: {
     trailInterval: 3
     trailRotation: true
     trailLength: 16
-    trailWidth: 3
+    trailWidth: 40
     fragBullets: 1
     fragLifeMin: 1
     fragLifeMax: 1
