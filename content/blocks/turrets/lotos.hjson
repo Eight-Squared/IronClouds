@@ -79,6 +79,22 @@ drawer: {
       progress: recoil
       moveY: -1
     }
+    {
+        type: HaloPart
+        y: -19.5
+        radius: 3
+        tri: true
+        layer: 110
+        color: 66B1FFff
+        haloRotateSpeed: -0.7
+        haloRadius: 15
+        haloRadiusTo: 15
+        stroke: 0
+        strokeTo: 2
+        shapes: 2
+        triLengthTo: 19
+        triLength: 0
+    }
   ]
 }
 coolant: {
@@ -91,7 +107,7 @@ shootY: 6
 shootType: {
   type: basicBulletType
   sprite: bullet
-  colors: [b98279, e6aca3, ffffff]
+  colors: [b98279 e6aca3 ffffff]
   damage: 63
   speed: 8
   homingPower: 0.2
