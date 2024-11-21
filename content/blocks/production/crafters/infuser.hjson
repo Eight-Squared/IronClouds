@@ -3,7 +3,7 @@
   type: GenericCrafter
   name: Infuser
   size: 3
-  hasLiquid: true
+  hasLiquids: true
   liquidCapacity: 80
   itemCapacity: 10
   drawer: {
