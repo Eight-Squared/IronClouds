@@ -87,12 +87,13 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
-shootY: -60
+shootY: 6
 shootType: {
   type: basicBulletType
-  sprite: tribullet
+  sprite: bullet
   colors: [b98279, e6aca3, ffffff]
   damage: 63
+  speed: 8
   homingPower: 0.2
   homingRange: 40
   homingDelay: 16
