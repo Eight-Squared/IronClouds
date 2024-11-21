@@ -3,7 +3,7 @@ name: Cover
 description: Fires at enemies over large distances.
 size: 3
 squareSprite: false
-warmup: 200
+minWarmup: 400
 reload: 270
 range: 320
 shootSound: shoot-big-artillery
@@ -28,8 +28,8 @@ drawer: {
       under: false
       progress: warmup
       moveY: -1
-      moveX: 4
-      moveRot: -9
+      moveX: 6
+      moveRot: -4
     }
   ]
 }
@@ -39,7 +39,7 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
-shootY: -32
+shootY: -60
 ammoTypes: {
   primordial-tungsten: {
     hitEffect: hitBulletColor
