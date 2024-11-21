@@ -45,7 +45,6 @@
         length: 120
         cone: -360
         strokeTo: 0
-        spin: 8
         lightColor: 66B1FFFF
         strokeFrom: 2.5
         sizeFrom: 20
