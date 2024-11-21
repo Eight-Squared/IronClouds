@@ -1,0 +1,113 @@
+type: ItemTurret
+name: Cover
+description: Fires at enemies over large distances.
+size: 3
+squareSprite: false
+reload: 270
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 2a2b3b
+researchCost
+research: {
+   parent: core-newcome
+}
+requirements: [
+  primordial-tungsten/60
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -casing
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -4
+    }
+  ]
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+ammoTypes: {
+  primordial-tungsten: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 67
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.5
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 69
+      splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
+    }
+  }
+  silver: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 90
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.5
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 78
+      splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
+    }
+  }
+}
