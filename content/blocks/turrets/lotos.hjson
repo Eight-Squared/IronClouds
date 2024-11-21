@@ -89,15 +89,11 @@ coolant: {
 }
 shootY: -60
 shootType: {
-  type: LaserBulletType
+  type: basicBulletType
+  sprite: tribullet
   colors: [b98279, e6aca3, ffffff]
-  lightningColor: e6aca3
-  length: 176
-  lightning: 3
-  lightningLength: 6
-  lightningDamage: 8
-  lightningCone: 90
   damage: 63
-  buildingDamageMultiplier: 0.5
-  chargeEffect: lightningCharge
+  homingPower: 0.2
+  homingRange: 40
+  homingDelay: 16
 }
