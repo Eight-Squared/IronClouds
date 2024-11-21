@@ -14,7 +14,7 @@
       }
       {
         type: DrawLiquidRegion
-        drawLiquid: molten-silver
+        drawLiquid: molten-uranium
         suffix: -liquid
       }
       {
@@ -56,7 +56,7 @@
   updateEffect: none
   consumes: {
     liquid: {
-      liquid: molten-silver
+      liquid: molten-uranium
       amount: 1.2
     }
   }
@@ -64,7 +64,7 @@
     primordial-tungsten/90
   ]
   category: crafting
-  outputItem: silver/2
+  outputItem: solid-uranium/2
   squareSprite: false
-  research: light-drill
+  research: silver-reassembler
 }
