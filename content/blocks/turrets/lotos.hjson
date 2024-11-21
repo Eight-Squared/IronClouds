@@ -108,7 +108,7 @@ coolant: {
 shootY: 6
 shootType: {
   type: basicBulletType
-  sprite: bullet
+  sprite: ironclouds-tribullet
   colors: [b98279 e6aca3 ffffff]
   damage: 63
   speed: 8
