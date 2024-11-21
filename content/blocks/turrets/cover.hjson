@@ -28,7 +28,7 @@ drawer: {
       progress: warmup
       moveY: -1
       moveX: 3
-      moveRot: 5
+      moveRot: -15
     }
   ]
 }
@@ -38,6 +38,7 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
+shootY: -14
 ammoTypes: {
   primordial-tungsten: {
     hitEffect: hitBulletColor
