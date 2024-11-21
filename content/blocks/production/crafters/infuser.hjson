@@ -24,6 +24,11 @@
         rotateScl: 7
         particleLife: 60
       }
+      {
+        type: DrawLiquidRegion
+        drawLiquid: molten-uranium
+        suffix: -liquid
+      }
     ]
   }
   size: 3
