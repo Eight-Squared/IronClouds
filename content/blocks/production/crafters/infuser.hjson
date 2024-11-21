@@ -1,6 +1,11 @@
 {
+  
   type: GenericCrafter
   name: Infuser
+  size: 3
+  hasLiquid: true
+  liquidCapacity: 80
+  itemCapacity: 10
   drawer: {
     type: DrawMulti
     drawers: [
@@ -31,10 +36,6 @@
       }
     ]
   }
-  size: 3
-  hasLiquid: true
-  liquidCapacity: 80
-  itemCapacity: 10
   craftEffect: {
         type: ParticleEffect
         line: true
