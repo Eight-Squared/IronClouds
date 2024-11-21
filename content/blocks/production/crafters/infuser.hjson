@@ -57,8 +57,9 @@
   consumes: {
     power: 1
     items: {
-      items: primordial-tungsten
-      amount: 2
+      items: [
+      primordial-tungsten/2
+      ]
     }
     liquid: {
       liquid: molten-uranium
