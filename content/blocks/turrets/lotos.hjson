@@ -1,0 +1,125 @@
+type: PowerTurret
+name: Lotos
+description: Brings destruction with its blossom.
+size: 4
+squareSprite: false
+#minWarmup: 40
+reload: 270
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 2a2b3b
+research: {
+   parent: cover
+}
+requirements: [
+  primordial-tungsten/60
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -1
+      moveX: -2
+    }
+    {
+      type: RegionPart
+      suffix: -rod
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -5
+    }
+    {
+      type: RegionPart
+      suffix: -midpetal
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -3
+      moveX: -4
+      moveRot: -10
+    }
+    {
+      type: RegionPart
+      suffix: -edgepetal
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -6
+      moveX: 6
+      moveRot: -16
+    }
+    {
+      type: RegionPart
+      suffix: -centerpetal
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -3
+      moveX: -3
+      moveRot: -6
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -1
+    }
+  ]
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+shootY: -60
+ammoTypes: {
+  primordial-tungsten: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 16
+    lifetime: 80
+    damage: 67
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.5
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 69
+      splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
+    }
+  }
+}
