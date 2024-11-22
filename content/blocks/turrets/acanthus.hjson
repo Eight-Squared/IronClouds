@@ -37,7 +37,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -back
-      mirror: true
+      mirror: false
       under: false
       progress: warmup
       moveY: -3
