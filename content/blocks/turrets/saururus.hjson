@@ -32,8 +32,7 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: -8
-      moveX: 0
+      moveY: -9
     }
     {
       type: RegionPart
@@ -41,8 +40,7 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveY: -3
-      moveX: 0
+      moveX: 4
     }
     {
       type: RegionPart
@@ -50,7 +48,7 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: 5
+      moveY: 7
     }
 #HALOS=====================================
     {
@@ -77,7 +75,7 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
-shootY: -13
+shootY: -16
 shootType: {
   type: basicBulletType
   sprite: missile-large
