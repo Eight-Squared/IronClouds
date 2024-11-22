@@ -6,8 +6,9 @@ squareSprite: false
 consumes: {
   power: 3
 }
-#minWarmup: 40
-reload: 12
+shootWarmupSpeed: 0.05
+minWarmup: 0.9
+reload: 50
 range: 320
 shootSound: shoot-big-artillery
 shootEffect: shootBig
