@@ -1,0 +1,130 @@
+type: PowerTurret
+name: Acanthus
+description: Brings destruction with its blossom.
+size: 5
+squareSprite: false
+consumes: {
+  power: 3
+}
+#minWarmup: 40
+reload: 12
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 2a2b3b
+research: {
+   parent: cover
+}
+requirements: [
+  primordial-tungsten/60
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+#TURRETPARTS=========================================
+    {
+      type: RegionPart
+      suffix: -attach
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: 0
+      moveX: 0
+    }
+    {
+      type: RegionPart
+      suffix: -back
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: -3
+      moveX: 0
+    }
+    {
+      type: RegionPart
+      suffix: -slider
+      mirror: true
+      under: false
+      progress: warmup
+      moveY: 5
+      moveX: 15
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 15
+    }
+    {
+      type: RegionPart
+      suffix: -midright
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 8
+    }
+    {
+      type: RegionPart
+      suffix: -mid
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 10
+    }
+    {
+      type: RegionPart
+      suffix: -center
+      mirror: true
+      under: false
+      progress: warmup
+      moveX: 5
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: 10
+    }
+#HALOS=====================================
+    {
+        type: HaloPart
+        y: -19
+        radius: 3
+        tri: true
+        layer: 110
+        color: 66B1FFff
+        haloRotateSpeed: -0.9
+        haloRadius: 15
+        haloRadiusTo: 15
+        stroke: 0
+        strokeTo: 2
+        shapes: 6
+        triLengthTo: 19
+        triLength: 0
+    }
+  ]
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+shootY: 6
+shootType: {
+  type: basicBulletType
+  sprite: bullet
+  colors: [b98279 e6aca3 ffffff]
+  damage: 63
+  speed: 8
+  homingPower: 0.2
+  homingRange: 40
+  homingDelay: 16
+}
