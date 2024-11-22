@@ -85,6 +85,8 @@ shootType: {
     homingRange: 45
     width: 10
     height: 18
+    frontColor: 82d4ed
+    backColor: 3ec4ed
     hitEffect: [hitBulletColor, railHit]
     despawnEffect: titanExplosion
     pierce: true
@@ -92,6 +94,7 @@ shootType: {
     splashDamage: 125
     splashDamageRadius: 64
     despawnSound: shoot-mortar
+    trailColor: 32c1ed
     trailChance: -1
     trailEffect: colorSpark
     trailInterval: 3
