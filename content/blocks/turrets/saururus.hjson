@@ -75,23 +75,25 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
-shootY: -16
+shootY: -22
 shootType: {
   type: BasicBulletType
-    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
     speed: 15
     lifetime: 32
+    homingPower:0.1
+    homingDelay: 35
+    homingRange: 45
     width: 10
     height: 18
-    hitEffect: hitBulletColor
-    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    hitEffect: [hitBulletColor, railHit]
+    despawnEffect: titanExplosion
     pierce: true
     damage: 375
     splashDamage: 125
     splashDamageRadius: 64
     despawnSound: shoot-mortar
     trailChance: -1
-    trailEffect: shootSmokeTitan
+    trailEffect: colorSpark
     trailInterval: 3
     trailRotation: true
     trailLength: 18
