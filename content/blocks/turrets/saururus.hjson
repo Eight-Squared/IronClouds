@@ -49,14 +49,13 @@ drawer: {
       under: true
       progress: warmup
       moveY: 14
-      children: [
-      {
+      children: [ {
         type: RegionPart
         suffix: -front-glow
         mirror: true
         under: true
         progress: warmup
-      }
+      } ]
     }
 #HALOS=====================================
     {
