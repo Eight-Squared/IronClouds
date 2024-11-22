@@ -15,8 +15,11 @@ shootEffect: sparkShoot
 smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
+researchCost: [
+  primordial-tungsten/100
+]
 research: {
-   parent: cover
+   parent: core-newcome
 }
 requirements: [
   primordial-tungsten/60
