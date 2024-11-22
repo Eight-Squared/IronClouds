@@ -11,7 +11,7 @@ minWarmup: 0.9
 reload: 50
 range: 320
 shootSound: shoot-big-artillery
-shootEffect: shootBig
+shootEffect: sparkShoot
 smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
@@ -32,7 +32,7 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: -9
+      moveY: -16
     }
     {
       type: RegionPart
@@ -40,7 +40,7 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveX: 4
+      moveX: 2.5
     }
     {
       type: RegionPart
@@ -48,7 +48,7 @@ drawer: {
       mirror: true
       under: true
       progress: warmup
-      moveY: 7
+      moveY: 14
     }
 #HALOS=====================================
     {
@@ -77,13 +77,26 @@ coolant: {
 }
 shootY: -16
 shootType: {
-  type: basicBulletType
-  sprite: missile-large
-  frontColor: 25ded8
-  backColor: 26d8de
-  damage: 63
-  speed: 8
-  homingPower: 0.2
-  homingRange: 100
-  homingDelay: 20
+  type: BasicBulletType
+    chargeEffect: [lightningCharge, lancerLaserCharge, lancerLaserChargeBegin]
+    speed: 15
+    lifetime: 32
+    width: 10
+    height: 18
+    hitEffect: hitBulletColor
+    despawnEffect: [massiveExplosion, titanExplosion, spawnShockwave]
+    pierce: true
+    damage: 375
+    splashDamage: 125
+    splashDamageRadius: 64
+    despawnSound: shoot-mortar
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 4
+  }
 }
+
+
