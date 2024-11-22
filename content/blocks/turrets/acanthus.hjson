@@ -122,8 +122,8 @@ coolant: {
 shootY: 10
 shootType: {
   type: basicBulletType
-  sprite: bullet
-  colors: [b98279 e6aca3 ffffff]
+  sprite: missile
+  colors: [25ded8]
   damage: 63
   speed: 8
   homingPower: 0.2
