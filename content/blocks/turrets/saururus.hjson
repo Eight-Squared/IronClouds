@@ -78,6 +78,22 @@ drawer: {
         triLengthTo: 19
         triLength: 0
     }
+    {
+        type: HaloPart
+        y: -19
+        radius: 2
+        tri: false
+        layer: 110
+        color: 66B1FFff
+        haloRotateSpeed: -2
+        haloRadius: 15
+        haloRadiusTo: 15
+        stroke: 2
+        strokeTo: 3
+        shapes: 2
+        triLengthTo: 19
+        triLength: 0
+    }
   ]
 }
 coolant: {
