@@ -55,6 +55,10 @@ drawer: {
         mirror: true
         under: true
         progress: warmup
+        blending: additive
+        outline: false
+        color: 3db1ebbb
+        colorTo: 6dd0f7ee
       } ]
     }
 #HALOS=====================================
