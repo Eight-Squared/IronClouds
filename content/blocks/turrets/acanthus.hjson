@@ -16,7 +16,7 @@ smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
 research: {
-   parent: cover
+   parent: saururus
 }
 requirements: [
   primordial-tungsten/60
