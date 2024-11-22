@@ -67,6 +67,8 @@ drawer: {
       under: false
       progress: warmup
       moveX: 8
+      moveY: 16
+      moveRot: -8
     }
     {
       type: RegionPart
