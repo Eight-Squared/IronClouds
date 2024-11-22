@@ -49,8 +49,8 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveY: 5
-      moveX: 15
+      moveY: 6
+      moveX: 8
     }
     {
       type: RegionPart
@@ -67,8 +67,6 @@ drawer: {
       under: false
       progress: warmup
       moveX: 8
-      moveY: 16
-      moveRot: -8
     }
     {
       type: RegionPart
@@ -77,6 +75,8 @@ drawer: {
       under: false
       progress: warmup
       moveX: 10
+      moveY: 16
+      moveRot: 8
     }
     {
       type: RegionPart
