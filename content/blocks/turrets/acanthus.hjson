@@ -42,7 +42,7 @@ drawer: {
       progress: warmup
       moveY: -3
       moveX: 0
-      layer: 16
+      layer: -1
     }
     {
       type: RegionPart
