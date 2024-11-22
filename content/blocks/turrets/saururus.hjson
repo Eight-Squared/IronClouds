@@ -89,7 +89,7 @@ drawer: {
         haloRadius: 15
         haloRadiusTo: 15
         stroke: 2
-        strokeTo: 3
+        strokeTo: -8
         shapes: 2
         triLengthTo: 19
         triLength: 0
