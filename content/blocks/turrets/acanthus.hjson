@@ -42,6 +42,7 @@ drawer: {
       progress: warmup
       moveY: -3
       moveX: 0
+      layer: 16
     }
     {
       type: RegionPart
@@ -49,8 +50,8 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveY: 6
-      moveX: 8
+      moveY: 5
+      moveX: 6
     }
     {
       type: RegionPart
@@ -58,7 +59,8 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveX: 15
+      moveX: 4
+      moveY: -2
     }
     {
       type: RegionPart
@@ -66,7 +68,7 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveX: 8
+      moveX: 6
     }
     {
       type: RegionPart
@@ -74,9 +76,7 @@ drawer: {
       mirror: true
       under: false
       progress: warmup
-      moveX: 10
-      moveY: 16
-      moveRot: 8
+      moveX: 4
     }
     {
       type: RegionPart
@@ -92,7 +92,7 @@ drawer: {
       mirror: false
       under: false
       progress: recoil
-      moveY: 10
+      moveY: -4
     }
 #HALOS=====================================
     {
@@ -119,7 +119,7 @@ coolant: {
   allowLiquid: true
   amount: 0.2
 }
-shootY: 6
+shootY: 10
 shootType: {
   type: basicBulletType
   sprite: bullet
@@ -127,6 +127,6 @@ shootType: {
   damage: 63
   speed: 8
   homingPower: 0.2
-  homingRange: 40
-  homingDelay: 16
+  homingRange: 100
+  homingDelay: 20
 }
