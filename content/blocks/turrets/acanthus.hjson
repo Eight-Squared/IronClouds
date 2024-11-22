@@ -123,7 +123,8 @@ shootY: 10
 shootType: {
   type: basicBulletType
   sprite: missile-large
-  colors: [25ded8, 26d8de]
+  frontColor: 25ded8
+  backColor: 26d8de
   damage: 63
   speed: 8
   homingPower: 0.2
