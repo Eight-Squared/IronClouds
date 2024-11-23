@@ -1,0 +1,17 @@
+type: LiquidRouter
+name: Low pressure router
+description: Distributes inputted liquids to three outputs equally.
+size: 1
+solid: false
+underBullets: true
+health: 45
+liquidCapacity: 15
+category: liquid
+squareSprite: false
+research: low-pressure-junction
+researchCost: [
+  primordial-tungsten/15
+]
+requirements: [
+  primordial-tungsten/8
+]
