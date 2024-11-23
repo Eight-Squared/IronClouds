@@ -134,11 +134,11 @@ shootType: {
   homingPower: 0.25
   homingRange: 100
   homingDelay: 20
-  trailColor: 32c1ed
+  trailColor: 42ebe5
   trailChance: -1
   trailEffect: colorSpark
   trailInterval: 3
   trailRotation: true
-  trailLength: 18
-  trailWidth: 4
+  trailLength: 8
+  trailWidth: 2
 }
