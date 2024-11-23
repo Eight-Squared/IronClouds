@@ -1,15 +1,15 @@
 type: Pump
-name: Heat exporting pump
+name: Tungsten pump
 description: Pumps liquids from liquid tiles.
-size: 4
+size: 2
 category: liquid
 squareSprite: false
 hasShadow: false
 research: light-drill
 researchCost: [
-  primordial-tungsten/100
-]
-requirements: [
   primordial-tungsten/50
 ]
-pumpAmount: 0.2
+requirements: [
+  primordial-tungsten/35
+]
+pumpAmount: 0.1
