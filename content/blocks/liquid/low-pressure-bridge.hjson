@@ -1,0 +1,18 @@
+type: DirectionLiquidBridge
+name: Low pressure bridge
+description: Used for crossing multiple distribution lines or terrain to connect conduits.
+size: 1
+health: 45
+fadeIn: false
+moveArrows: true
+arrowSpacing: 5
+range: 4
+hasPower: false
+category: liquid
+research: low-pressure-router
+researchCost: [
+  primordial-tungsten/15
+]
+requirements: [
+  primordial-tungsten/12
+]
