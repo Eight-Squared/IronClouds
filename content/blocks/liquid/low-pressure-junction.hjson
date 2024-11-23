@@ -1,6 +1,8 @@
 type: LiquidJunction
 name: Low pressure junction
 description: Used for crossing two conduits.
+size: 1
+health: 45
 solid: false
 category: liquid
 research: low-pressure-conduit
