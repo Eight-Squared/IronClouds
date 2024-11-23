@@ -8,7 +8,7 @@ consumes: {
 }
 shootWarmupSpeed: 0.05
 minWarmup: 0.9
-reload: 50
+reload: 12
 range: 320
 shootSound: shoot-big-artillery
 shootEffect: shootBig
@@ -123,11 +123,14 @@ shootY: 10
 shootType: {
   type: basicBulletType
   sprite: missile-large
+  width: 10
+  height: 20
   frontColor: 25ded8
   backColor: 26d8de
   damage: 63
-  speed: 8
-  homingPower: 0.2
+  pierce: true
+  speed: 6
+  homingPower: 0.25
   homingRange: 100
   homingDelay: 20
 }
