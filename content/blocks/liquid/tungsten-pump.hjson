@@ -13,3 +13,4 @@ requirements: [
   primordial-tungsten/35
 ]
 pumpAmount: 0.1
+placeableLiquid: true
