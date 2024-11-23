@@ -27,3 +27,4 @@ ambientSound: hum
 ambientSoundVolume: 0.06
 attribute: radioheat
 floats: true
+placeableLiquid: true
