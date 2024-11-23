@@ -94,8 +94,8 @@ shootType: {
   type: BasicBulletType
     speed: 15
     lifetime: 32
-    homingPower:0.1
-    homingDelay: 35
+    homingPower:0.3
+    homingDelay: 5
     homingRange: 45
     width: 10
     height: 18
