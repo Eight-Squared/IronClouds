@@ -10,4 +10,4 @@ cacheLayer: slag
 liquidMultiplier: 1
 albedo: 0.2
 supportsOverlay: true
-placeableOn: false
+drownTime: 660
