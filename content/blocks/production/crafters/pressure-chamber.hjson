@@ -14,11 +14,13 @@
         type: DrawLiquidRegion
         drawLiquid: molten-uranium
         suffix: -liquid
+        alpha: 0.85
       }
       {
         type: DrawLiquidRegion
         drawLiquid: molten-uranium
         suffix: -liquidb
+        alpha: 0.85
       }
     ]
   }
@@ -26,7 +28,7 @@
         type: ParticleEffect
         line: true
         particles: 25
-        lifetime: 30
+        lifetime: 5
         offset: 60
         length: 120
         cone: -360
