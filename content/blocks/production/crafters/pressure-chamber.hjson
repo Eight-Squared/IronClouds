@@ -1,0 +1,59 @@
+  type: GenericCrafter
+  name: Pressure chamber
+  size: 4
+  hasLiquids: true
+  liquidCapacity: 80
+  itemCapacity: 20
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+      {
+        type: DrawLiquidRegion
+        drawLiquid: molten-uranium
+        suffix: -liquid
+      }
+    ]
+  }
+  craftEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 25
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+  craftTime: 100
+  updateEffect: none
+  consumes: {
+    power: 1
+    items: {
+      items: [
+      primordial-tungsten/2
+      ]
+    }
+    liquid: {
+      liquid: molten-uranium
+      amount: 0.4
+    }
+  }
+  requirements: [
+    primordial-tungsten/20
+  ]
+  category: crafting
+  outputItem: gervoxium/1
+  squareSprite: false
+  research: silver-reassembler
+  researchCost: [
+    primordial-tungsten/1
+  ]
