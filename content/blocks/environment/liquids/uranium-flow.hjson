@@ -13,3 +13,4 @@ supportsOverlay: true
 attributes: {
 radioheat: 2
 }
+placeableOn: false
