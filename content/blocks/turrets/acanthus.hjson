@@ -129,8 +129,16 @@ shootType: {
   backColor: 26d8de
   damage: 63
   pierce: true
-  speed: 6
+  speed: 10
+  lifeTime: 28
   homingPower: 0.25
   homingRange: 100
   homingDelay: 20
+  trailColor: 32c1ed
+  trailChance: -1
+  trailEffect: colorSpark
+  trailInterval: 3
+  trailRotation: true
+  trailLength: 18
+  trailWidth: 4
 }
