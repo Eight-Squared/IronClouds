@@ -1,0 +1,18 @@
+type: Conduit
+name: Low pressure conduit
+description: A conduit made out of tungsten.
+category: liquid
+research: tungsten-pump
+researchCost: [
+  primordial-tungsten/10
+]
+requirements: [
+  primordial-tungsten/2
+]
+health: 125
+leaks: true
+junctionReplacement: low-pressure-junction
+bridgeReplacement: low-pressure-bridge
+underBullets: false
+liquidPressure: 1
+liquidCapacity: 5
