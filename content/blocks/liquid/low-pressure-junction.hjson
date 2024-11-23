@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: Low pressure junction
+description: Used for crossing two conduits.
+solid: false
+category: liquid
+research: low-pressure-conduit
+researchcost: [
+  primordial-tungsten/15
+]
+requirements: [
+  primordial-tungsten/8
+]
