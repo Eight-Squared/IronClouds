@@ -15,6 +15,11 @@
         drawLiquid: molten-uranium
         suffix: -liquid
       }
+      {
+        type: DrawLiquidRegion
+        drawLiquid: molten-uranium
+        suffix: -liquidb
+      }
     ]
   }
   craftEffect: {
