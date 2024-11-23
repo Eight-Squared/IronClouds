@@ -1,6 +1,6 @@
   type: GenericCrafter
   name: Pressure chamber
-  size: 4
+  size: 3
   hasLiquids: true
   liquidCapacity: 80
   itemCapacity: 20
