@@ -1,4 +1,4 @@
 type: Floor
 name: Hardened Sand
-itemDrop: monzanite
+itemDrop: monazite
 playerUnmineable: true
