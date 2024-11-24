@@ -1,9 +1,9 @@
 type: Junction
 name: Tungsten junction
 description: Allows for crossing two ducts. 
-health: 65
+health: 60
 size: 1
-speed: 22
+speed: 10
 requirements: [
   primordial-tungsten/16
 ]
@@ -11,5 +11,5 @@ squareSprite: true
 category: distribution
 research: tungsten-duct
 researchCost: [
-  primordial-tungsten/30
+  primordial-tungsten/50
 ]
