@@ -1,9 +1,9 @@
-type: Router
-name: Tungsten Router
-description: Distributes input items from ducts to three directions equally. 
+type: ductRouter
+name: Armored router
+description: Distributes input items from ducts behind it to three directions equally. 
 size: 1
 speed: 10
-health: 110
+health: 60
 itemCapacity: 1
 requirements: [
   primordial-tungsten/5
