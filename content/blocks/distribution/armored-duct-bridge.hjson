@@ -1,17 +1,16 @@
 type: DuctBridge
-name: Tungsten directional bridge
+name: Armored duct bridge
 description: Acts as a bridge for crossing ducts or terrain.
-health: 135
+health: 80
 size: 1
 requirements: [
   primordial-tungsten/8
 ] 
 category: distribution
-research: tungsten-juction
+research: armored-router
 researchCost: [
-  primordial-tungsten/30
+  primordial-tungsten/100
 ]
 squareSprite: false
 range: 4
 speed: 20
-researchCostMultiplier: 0.2
