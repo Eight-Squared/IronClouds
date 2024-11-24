@@ -160,10 +160,10 @@ generator: {
   darkChance: 0.39
 }
 sectorSize: 0.8
-allowLaunchSchematics: true
-allowLaunchToNumbered: true
-allowLaunchLoadout: true
-allowSectorInvasion: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
 autoAssignPlanet: true
 startSector: 12
 orbitSpacing: 1
@@ -174,14 +174,14 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 accessible: true
 tidaLock: true
-updateLighting: true
+updateLighting: false
 sectorSeed: 6464
 bloom: true
 visible: true
 atmosphereColor: 323024
 iconColor: 4a3a3c
 hasAtmosphere: true
-allowWaveSimulation: true
+allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
