@@ -1,6 +1,6 @@
 type: Duct
 name: Tungsten duct
-description: A decent duct.
+description: A duct for moving items across terrain. Capable of protecting materials against harsh atmosphere.
 category: distribution
 planet: novum
 alwaysUnlocked: false
@@ -10,7 +10,8 @@ researchCost: [
 ]
 speed: 6
 health: 45
-bridgeReplacement: tungsten-duct-bridge
+bridgeReplacement: armored-duct-bridge
+junctionReplacement: armored-junction
 requirements: [
   primordial-tungsten/1
 ]
