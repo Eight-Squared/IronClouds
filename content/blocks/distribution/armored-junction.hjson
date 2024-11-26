@@ -1,15 +1,15 @@
 type: Junction
-name: Tungsten junction
+name: Duct junction
 description: Allows for crossing two ducts. 
 health: 60
 size: 1
 speed: 6
 requirements: [
-  primordial-tungsten/16
+  ic-zinc/16
 ]
 squareSprite: true
 category: distribution
-research: tungsten-duct
+research: zinc-duct
 researchCost: [
-  primordial-tungsten/50
+  ic-zinc/100
 ]
