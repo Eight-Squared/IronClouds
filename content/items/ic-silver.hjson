@@ -1,6 +1,6 @@
 name: Silver
 description: Purified and solidified silver. A very good conductor that can be used to make many buildings.
-hardness: 2
+hardness: 1
 flammability: 0
 explosiveness: 0
 radioactivity: 0.2
@@ -8,7 +8,7 @@ research: molten-silver
 cost: 1
 buildable: true
 charge: 0.1
-color: f7f5f5
+color: 5c6982
 hiddenOnPlanets: [
 serpulo
 erekir
