@@ -1,16 +1,16 @@
 type: DuctBridge
-name: Armored duct bridge
+name: Duct bridge
 description: Acts as a bridge for crossing ducts or terrain.
-health: 80
+health: 60
 size: 1
 requirements: [
-  primordial-tungsten/8
+  ic-zinc/8
 ] 
 category: distribution
 research: armored-router
 researchCost: [
-  primordial-tungsten/100
+  ic-zinc/100
 ]
 squareSprite: false
-range: 4
+range: 5
 speed: 6
