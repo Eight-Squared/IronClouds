@@ -1,4 +1,4 @@
 type: OreBlock
 name: Primordial tungsten ore
-itemDrop: primordial-tungsten
+itemDrop: ic-primordial-tungsten
 variants: 4
