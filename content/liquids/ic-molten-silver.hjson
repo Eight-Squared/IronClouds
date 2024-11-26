@@ -1,0 +1,11 @@
+name: Molten silver
+description: Extremly hot silver in liquid form that stays above denser materials. Spilled silver lingers for a long time.
+temperature: 4.0
+boilPoint: 0.9
+heatCapacity: 0.0
+viscosity: 1.0
+color: e8dbca
+gasColor: e8dbca
+coolant: false
+capPuddles: false
+research: ic-zinc
