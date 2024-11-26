@@ -1,17 +1,17 @@
 type: Duct
-name: Tungsten duct
+name: Zinc duct
 description: A duct for moving items across terrain. Capable of protecting materials against harsh atmosphere.
 category: distribution
 planet: novum
 alwaysUnlocked: false
 research: core-newcome
 researchCost: [
-  primordial-tungsten/10
+  ic-zinc/10
 ]
 speed: 6
 health: 45
 bridgeReplacement: armored-duct-bridge
 junctionReplacement: armored-junction
 requirements: [
-  primordial-tungsten/1
+  ic-zinc/1
 ]
