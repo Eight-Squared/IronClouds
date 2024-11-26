@@ -2,15 +2,15 @@ type: ductRouter
 name: Armored router
 description: Distributes input items from ducts behind it to three directions equally. 
 size: 1
-speed: 10
+speed: 6
 health: 60
 itemCapacity: 1
 requirements: [
-  primordial-tungsten/5
+  ic-zinc/5
 ]
 squareSprite: false
 category: distribution
 research: tungsten-junction
 researchCost: [
-  primordial-tungsten/25
+  ic-zinc/100
 ]
