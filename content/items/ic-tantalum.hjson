@@ -3,7 +3,7 @@ description: A metal.
 hardness: 2
 flammability: 0.2
 explosiveness: 0.1
-research: primordial-tungsten
+research: ic-primordial-tungsten
 cost: 2
 charge: 0.2
 color: cf9991
