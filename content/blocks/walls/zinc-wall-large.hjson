@@ -9,5 +9,5 @@ requirements: [
 category: defense
 research: zinc-wall
 researchCost: [
-  primordial-tungsten/150
+  ic-zinc/150
 ]
