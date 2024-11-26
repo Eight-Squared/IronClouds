@@ -2,8 +2,8 @@
   research: {
     parent: mjolnir,
     requirements: [
-      primordial-tungsten/2640,
-      silver/2800
+      ic-primordial-tungsten/2640,
+      ic-silver/2800
     ]
   },
   speed: 1.0,
