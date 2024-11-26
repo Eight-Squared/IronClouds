@@ -10,7 +10,7 @@ shootWarmupSpeed: 0.05
 minWarmup: 0.9
 reload: 12
 range: 320
-shootSound: shoot-big-artillery
+#shootSound: shoot-big-artillery
 shootEffect: shootBig
 smokeEffect: shootSmokeTitan
 category: turret
@@ -19,7 +19,7 @@ research: {
    parent: saururus
 }
 requirements: [
-  primordial-tungsten/60
+  ic-zinc/60
 ]
 drawer: {
   type: DrawTurret
