@@ -10,8 +10,8 @@ category: liquid
 squareSprite: false
 research: low-pressure-junction
 researchCost: [
-  primordial-tungsten/15
+  ic-zinc/100
 ]
 requirements: [
-  primordial-tungsten/8
+  ic-zinc/8
 ]
