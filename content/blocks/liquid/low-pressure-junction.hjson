@@ -7,8 +7,8 @@ solid: false
 category: liquid
 research: low-pressure-conduit
 researchcost: [
-  primordial-tungsten/15
+  ic-zinc/150
 ]
 requirements: [
-  primordial-tungsten/8
+  ic-zinc/8
 ]
