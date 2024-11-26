@@ -1,0 +1,17 @@
+name: Mafic
+description: This rock is not found at the equator on the surface of Novum because of planet bulging from centrifugal force. It gets covered by hardened slag, magma and molten puddles. Mafic on Novum appears to be soft but incredibly dense. 
+hardness: 1
+flammability: 0
+explosiveness: 0
+cost: 1
+charge: 0
+color: 665e4d
+radioactivity: 0
+research: ic-gangue
+cost: 1
+buildable: false
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+lowPriority: true
