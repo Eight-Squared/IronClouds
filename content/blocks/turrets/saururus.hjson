@@ -16,13 +16,13 @@ smokeEffect: shootSmokeTitan
 category: turret
 outlineColor: 2a2b3b
 researchCost: [
-  primordial-tungsten/100
+  ic-zinc/100
 ]
 research: {
    parent: core-newcome
 }
 requirements: [
-  primordial-tungsten/60
+  ic-zinc/60
 ]
 drawer: {
   type: DrawTurret
