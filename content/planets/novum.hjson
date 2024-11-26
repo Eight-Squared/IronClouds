@@ -190,12 +190,12 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  "primordial-tungsten",
+  "ic-primordial-tungsten",
   "ic-silver",
   "ic-gangue",
   "ic-zinc",
   "ic-monazite",
   "ic-mafic",
-  "tantalum",
-  "rhenium"
+  "ic-tantalum",
+  "ic-rhenium"
 ]
