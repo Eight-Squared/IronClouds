@@ -12,13 +12,13 @@
       }
       {
         type: DrawLiquidRegion
-        drawLiquid: molten-uranium
+        drawLiquid: ic-molten-uranium
         suffix: -liquid
         alpha: 0.85
       }
       {
         type: DrawLiquidRegion
-        drawLiquid: molten-uranium
+        drawLiquid: ic-molten-uranium
         suffix: -liquidb
         alpha: 0.85
       }
@@ -46,21 +46,23 @@
     power: 1
     items: {
       items: [
-      primordial-tungsten/2
+      ic-mafic/2
       ]
     }
     liquid: {
-      liquid: molten-uranium
+      liquid: ic-molten-uranium
       amount: 0.4
     }
   }
   requirements: [
-    primordial-tungsten/20
+    ic-zinc/20
+    ic-silver/20
   ]
   category: crafting
-  outputItem: gervoxium/1
+  outputItem: gangue/1
   squareSprite: false
   research: silver-reassembler
   researchCost: [
-    primordial-tungsten/1
+  ic-zinc/1
+  ic-silver/1
   ]
