@@ -11,8 +11,8 @@ hasPower: false
 category: liquid
 research: low-pressure-router
 researchCost: [
-  primordial-tungsten/15
+  ic-zinc/150
 ]
 requirements: [
-  primordial-tungsten/12
+  ic-zinc/12
 ]
