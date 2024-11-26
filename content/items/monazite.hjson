@@ -1,9 +1,17 @@
 name: Monazite
-description: "Heavy and hard material yhat crumbles easily. Used for production."
+description: Heavy and hard material that crumbles easily. Used for production.
 hardness: 1
 flammability: 0
 explosiveness: 0
-research: primordial-tungsten
 cost: 1
 charge: 0
-color: a13d4f
+color: f77272
+radioactivity: 0
+research: zinc
+cost: 1
+buildable: false
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+lowPriority: true
