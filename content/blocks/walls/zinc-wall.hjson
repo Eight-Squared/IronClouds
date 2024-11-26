@@ -1,0 +1,13 @@
+type: Wall
+size: 1
+name: Zinc wall
+description: A small wall.
+health: 1740
+requirements: [
+  ic-zinc/6
+] 
+category: defense
+research: core-newcome
+researchCost: [
+  ic-zinc/20
+]
