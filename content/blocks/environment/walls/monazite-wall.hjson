@@ -2,5 +2,5 @@ type: StaticWall
 name: Monazite wall
 variants: 3
 attributes: {
-  monazite: 1
+  ic-monazite: 1
 }
