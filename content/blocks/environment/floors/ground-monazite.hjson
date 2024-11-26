@@ -1,4 +1,4 @@
 type: Floor
 name: Softened monazite
-itemDrop: monazite
+itemDrop: ic-monazite
 playerUnmineable: true
