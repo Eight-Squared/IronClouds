@@ -191,8 +191,11 @@ solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
   "primordial-tungsten",
-  "silver",
-  "solid-uranium",
+  "ic-silver",
+  "ic-gangue",
+  "ic-zinc",
+  "ic-monazite",
+  "ic-mafic",
   "tantalum",
   "rhenium"
 ]
