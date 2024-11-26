@@ -1,0 +1,17 @@
+name: Zinc
+description: A metal found plentiful on Novum that is softened by the temperature of the planet itself. Can be used for basic construction.
+hardness: 1
+flammability: 0
+explosiveness: 0
+cost: 1
+charge: 0
+color: 8d9997
+radioactivity: 0
+research: core-newcome
+cost: 1
+buildable: true
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+lowPriority: false
