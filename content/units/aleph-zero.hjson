@@ -7,7 +7,7 @@
     ]
   },
   speed: 1.0,
-  rotateSpeed: 1.1,
+  rotateSpeed: 0.5,
   accel: 0.05,
   drag: 0.018,
   flying: true,
@@ -27,6 +27,7 @@
     {
       name: aleph-zero-central,
       top: false,
+      shootY: 20,
       rotate: true,
       rotateSpeed: 1,
       shootCone: 28,
@@ -124,7 +125,7 @@
       top: true,
       recoil: 0,
       rotate: true,
-      shootY: 0,
+      shootY: 20,
       rotateSpeed: 3,
       shootSound: torch,
       alwaysContinuous: true,
