@@ -1,9 +1,0 @@
-name: Solid uranium
-description: A metalix.
-hardness: 2
-flammability: 0
-explosiveness: 0.1
-research: silver
-cost: 2
-charge: 0.2
-color: 000c1f
