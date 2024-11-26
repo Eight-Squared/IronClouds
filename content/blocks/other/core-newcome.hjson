@@ -2,8 +2,8 @@ type: CoreBlock
 name: Core: Newcome
 description: Core of the base. Armored and stores a medium amount of items.
 requirements: [
-  primordial-tungsten/900,
-  silver/500
+  ic-zinc/900,
+  ic-silver/500
 ]
 isFirstTier: true
 size: 3
