@@ -1,5 +1,3 @@
-{
-  
   type: GenericCrafter
   name: Infuser
   size: 3
@@ -14,7 +12,7 @@
       }
       {
         type: DrawLiquidRegion
-        drawLiquid: molten-uranium
+        drawLiquid: ic-molten-uranium
         suffix: -liquid
       }
       {
@@ -63,7 +61,7 @@
       ]
     }
     liquid: {
-      liquid: molten-uranium
+      liquid: ic-molten-uranium
       amount: 1.2
     }
   }
@@ -78,4 +76,4 @@
   ic-zinc/500
   ic-silver/600
   ]
-}
+
