@@ -21,7 +21,7 @@
   },
   requirements: [
     {
-      item: primordial-tungsten,
+      item: ic-zinc,
       amount: 25
     }
   ],
@@ -29,7 +29,7 @@
   research: core-newcome,
   researchCost: [
     {
-      item: primordial-tungsten,
+      item: ic-zinc,
       amount: 15
     }
   ],
