@@ -7,10 +7,10 @@ squareSprite: false
 hasShadow: true
 research: light-drill
 researchCost: [
-  primordial-tungsten/50
+  ic-zinc/20
 ]
 requirements: [
-  primordial-tungsten/35
+  ic-zinc/45
 ]
 pumpAmount: 0.1
 placeableLiquid: true
