@@ -4,15 +4,15 @@ description: A conduit made out of tungsten.
 category: liquid
 research: tungsten-pump
 researchCost: [
-  primordial-tungsten/10
+  ic-zinc/10
 ]
 requirements: [
-  primordial-tungsten/2
+  ic-zinc/2
 ]
 health: 125
 leaks: true
 junctionReplacement: low-pressure-junction
 bridgeReplacement: low-pressure-bridge
 underBullets: false
-liquidPressure: 1
+liquidPressure: 0.2
 liquidCapacity: 5
