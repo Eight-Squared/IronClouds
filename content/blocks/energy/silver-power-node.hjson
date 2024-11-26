@@ -1,6 +1,6 @@
-name: Power node
+name: Silver power node
 type: beamNode
-health: 160
+health: 50
 size: 1
 range: 8
 fogRadius: 1
@@ -11,12 +11,12 @@ consumes: {
     powerBuffered: 0
     }
 requirements: [
-    primordial-tungsten/3
-    silver/6
+    ic-zinc/3
+    ic-silver/6
 ]
 category: power
-research: molten-uranium
+research: core-newcome
 researchCost: [
-    primordial-tungsten/20
-    silver/30
+    ic-zinc/30
+    ic-silver/60
 ]
