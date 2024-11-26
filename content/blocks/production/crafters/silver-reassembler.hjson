@@ -14,7 +14,6 @@
     ]
   },
   size: 2,
-  researchCostMultiplier: 0.1,
   hasLiquid: true,
   liquidCapacity: 80,
   itemCapacity: 10,
@@ -35,12 +34,12 @@
   updateEffect: none,
   consumes: {
     liquid: {
-      liquid: molten-silver,
-      amount: 1.2
+      liquid: ic-molten-silver,
+      amount: 0.3
     }
   },
   requirements: [
-    primordial-tungsten/90
+    ic-zinc/30
   ],
   category: crafting,
   outputItem: silver/2,
