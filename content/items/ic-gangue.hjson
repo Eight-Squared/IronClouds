@@ -1,0 +1,17 @@
+name: Gangue
+description: Seemingly worthless rock that forms around ores. Can be used as cheap sanding material or filtered for resedue of usable materials.
+hardness: 2
+flammability: 0
+explosiveness: 0
+cost: 1
+charge: 0
+color: 3d3832
+radioactivity: 0.1
+research: ic-monazite
+cost: 1
+buildable: false
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+lowPriority: true
