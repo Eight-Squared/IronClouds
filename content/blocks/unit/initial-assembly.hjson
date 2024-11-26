@@ -1,7 +1,6 @@
 {
   name: Initial assembly,
   type: UnitFactory,
-  researchCostMultiplier: 0.3,
   size: 4,
   consumes: {
     power: 5
@@ -11,11 +10,11 @@
       unit: mjolnir,
       requirements: [
         {
-          item: primordial-tungsten,
+          item: ic-zinc,
           amount: 50
         },
         {
-          item: silver,
+          item: ic-silver,
           amount: 65
         }
       ],
@@ -24,18 +23,18 @@
   ],
   requirements: [
     {
-      item: primordial-tungsten,
+      item: ic-zinc,
       amount: 580
     },
     {
-      item: silver,
+      item: ic-silver,
       amount: 180
     }
   ],
   category: units,
   research: core-newcome
   researchCost: [
-    primordial-tungsten/200,
-    silver/150
+    ic-zinc/200,
+    ic-silver/150
   ]
 }
