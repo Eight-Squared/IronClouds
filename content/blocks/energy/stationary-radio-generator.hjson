@@ -3,14 +3,14 @@ name: Stationary radio generator
 type: ThermalGenerator
 research: silver-power-node
 researchCost: [
-primordial-tungsten/30
-silver/15
+ic-zinc/300
+ic-silver/450
 ]
 requirements: [
-primordial-tungsten/45
-silver/50
+ic-zinc/60
+ic-silver/90
 ]
-powerProduction: 2.5
+powerProduction: 1
 generateEffect: {
 type: ParticleEffect
 particles: 6
