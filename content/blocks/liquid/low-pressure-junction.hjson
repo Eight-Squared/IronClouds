@@ -7,7 +7,7 @@ solid: false
 category: liquid
 research: low-pressure-conduit
 researchcost: [
-  ic-zinc/150
+  ic-zinc/100
 ]
 requirements: [
   ic-zinc/8
