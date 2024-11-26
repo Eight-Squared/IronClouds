@@ -3,7 +3,7 @@ description: A very hard to melt metal.
 hardness: 2
 flammability: 0
 explosiveness: 0
-research: primordial-tungsten
+research: ic-primordial-tungsten
 cost: 3
 charge: 0.1
 color: 3050a2
