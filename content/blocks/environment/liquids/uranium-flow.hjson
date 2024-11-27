@@ -8,8 +8,9 @@ liquidDrop: ic-molten-uranium
 isLiquid: true
 drownTime: 500
 cacheLayer: cryofluid
+overlayAlpha: 0.4
 liquidMultiplier: 0.8
-albedo: 0.9
+albedo: 0.2
 supportsOverlay: true
 attributes: {
 radioheat: 2
