@@ -59,7 +59,7 @@
     ic-silver/20
   ]
   category: crafting
-  outputItem: gangue/1
+  outputItem: ic-gangue/1
   squareSprite: false
   research: silver-reassembler
   researchCost: [
