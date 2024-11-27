@@ -1,6 +1,6 @@
 type: Conduit
 name: Low pressure conduit
-description: A conduit made out of tungsten.
+description: "A conduit made out of zinc. Has a throughput of [cyan]50 liquid units]/second."
 category: liquid
 research: tungsten-pump
 researchCost: [
