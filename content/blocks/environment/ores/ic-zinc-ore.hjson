@@ -1,0 +1,6 @@
+type: OreBlock
+name: Zinc ore
+itemDrop: ic-zinc
+variants: 4
+canShadow: false
+oreDefault: true
