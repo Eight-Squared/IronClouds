@@ -14,5 +14,5 @@ leaks: true
 junctionReplacement: low-pressure-junction
 bridgeReplacement: low-pressure-bridge
 underBullets: false
-liquidPressure: 0.2
-liquidCapacity: 5
+liquidPressure: 0.4
+liquidCapacity: 6
