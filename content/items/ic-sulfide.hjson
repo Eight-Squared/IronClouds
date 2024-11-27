@@ -1,0 +1,15 @@
+name: Sulfide
+description: A corrosive compound. Could easily kill invasive organisms such as spores on Serpulo or arkycite on Erekir.
+hardness: 1
+flammability: 0.1
+explosiveness: 0.01
+radioactivity: 0
+research: ic-silver
+cost: 3
+buildable: true
+charge: 0
+color: 7c9177
+hiddenOnPlanets: [
+serpulo
+erekir
+]
