@@ -1,0 +1,15 @@
+name: Rutile
+description: "Red crystals of oxidized titanium. Insanely hard."
+hardness: 8
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+research: ic-silver
+cost: 4
+buildable: true
+color: 69282f
+hiddenOnPlanets: [
+serpulo
+erekir
+]
