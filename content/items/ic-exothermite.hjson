@@ -1,0 +1,15 @@
+name: Exothermite
+description: "Solid fuel made from extremely volatile materials. Does not burn - it explodes."
+hardness: 1
+flammability: 1
+explosiveness: 8
+radioactivity: 0.8
+research: ic-silver
+cost: 1
+buildable: false
+charge: 3
+color: 854975
+hiddenOnPlanets: [
+serpulo
+erekir
+]
