@@ -13,16 +13,16 @@
   craftEffect: {
         type: ParticleEffect
         line: false
-        particles: 3
-        lifetime: 80
+        particles: 5
+        lifetime: 120
         offset: 60
-        length: 12
+        length: 24
         cone: -360
         strokeTo: 0
         lightColor: 00000000
         strokeFrom: 2.5
         sizeFrom: 6
-        sizeTo: 0
+        sizeTo: 3
         colorFrom: b0c9e8
         colorTo: 1b1f24
       }
