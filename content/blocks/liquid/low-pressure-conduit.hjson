@@ -15,4 +15,4 @@ junctionReplacement: low-pressure-junction
 bridgeReplacement: low-pressure-bridge
 underBullets: false
 liquidPressure: 1
-liquidCapacity: 2
+liquidCapacity: 1
