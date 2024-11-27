@@ -1,4 +1,4 @@
-{
+
   type: GenericCrafter,
   name: Silver reassembler,
   drawer: {
@@ -42,7 +42,6 @@
     ic-zinc/30
   ],
   category: crafting,
-  outputItem: silver/2,
+  outputItem: ic-silver/2,
   squareSprite: false,
   research: light-drill
-}
