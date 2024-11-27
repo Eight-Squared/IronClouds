@@ -1,0 +1,15 @@
+name: Cobalt
+description: "A strong metal that is surprisingly easy to use in manufacturing. Is suitable for internal parts an armor simultaneously."
+hardness: 4
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+research: ic-sulfide
+cost: 3
+buildable: true
+color: 5a5763
+hiddenOnPlanets: [
+serpulo
+erekir
+]
