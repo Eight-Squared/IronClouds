@@ -1,0 +1,51 @@
+  type: GenericCrafter
+  name: Sulfide mixer
+  size: 3
+  itemCapacity: 10
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+    ]
+  }
+  craftEffect: {
+        type: ParticleEffect
+        line: false
+        particles: 3
+        lifetime: 20
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: b0c9e8
+        colorTo: 1b1f24
+      }
+  craftTime: 100
+  updateEffect: none
+  consumes: {
+    power: 1
+    items: {
+      items: [
+      ic-mafic/2
+      ic-silver/1
+      ]
+    }
+  }
+  requirements: [
+    ic-zinc/80
+    ic-silver/60
+  ]
+  category: crafting
+  outputItem: ic-sulfide/1
+  squareSprite: false
+  research: silver-reassembler
+  researchCost: [
+  ic-zinc/800
+  ic-silver/600
+  ]
