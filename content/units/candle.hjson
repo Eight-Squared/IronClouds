@@ -10,7 +10,7 @@
   mineItems: [
     ic-zinc
   ]
-  playerControllable: false
+  playerControllable: true
   speed: 1.8
   mineSpeed: 7.5
   rotateSpeed: 6
