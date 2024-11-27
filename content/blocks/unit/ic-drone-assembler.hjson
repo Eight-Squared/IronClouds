@@ -1,0 +1,24 @@
+  type: UnitFactory
+  size: 2
+  consumes: {
+    power: 2
+  }
+  plans: [
+    {
+      unit: candle
+      requirements: [
+        ic-zinc/80
+      ]
+      time: 900
+    }
+  ]
+  requirements: [  
+    ic-zinc/150
+    ic-silver/200
+    ic-sulfide/40
+  ]
+  category: units
+  research: core-newcome
+  researchCost: [
+    ic-zinc/1
+  ]
