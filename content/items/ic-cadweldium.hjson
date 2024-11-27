@@ -1,1 +1,15 @@
-
+name: Cadweldium
+description: "Burns as hot as stars."
+hardness: 1
+flammability: 2304800
+explosiveness: 68450
+radioactivity: 0
+charge: 4500
+research: ic-exothermite
+cost: 10
+buildable: false
+color: 74687d
+hiddenOnPlanets: [
+serpulo
+erekir
+]
