@@ -1,0 +1,10 @@
+name: Molten uranium
+description: Sparking with the hottest possible light in the universe this sludge is extremly radioactive.
+boilPoint: 12.9
+color: 28caf2
+barColor: 3daff6
+lightColor: 48c3f7df
+coolant: false
+gasColor: 000000
+temperature: 9.2
+research: ic-molten-silver
