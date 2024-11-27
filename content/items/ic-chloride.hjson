@@ -1,1 +1,15 @@
-
+name: Chloride
+description: "Important resource for chemical manufacturing. Can be oxidized but not reduced."
+hardness: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+research: ic-sulfide
+cost: 3
+buildable: true
+color: d8d9e8
+hiddenOnPlanets: [
+serpulo
+erekir
+]
