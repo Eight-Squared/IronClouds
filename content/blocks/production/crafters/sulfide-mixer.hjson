@@ -14,15 +14,15 @@
         type: ParticleEffect
         line: false
         particles: 3
-        lifetime: 20
+        lifetime: 80
         offset: 60
-        length: 120
+        length: 12
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
+        lightColor: 00000000
         strokeFrom: 2.5
-        sizeFrom: 20
-        sizeTo: 20
+        sizeFrom: 6
+        sizeTo: 0
         colorFrom: b0c9e8
         colorTo: 1b1f24
       }
