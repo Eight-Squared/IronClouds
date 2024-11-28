@@ -145,7 +145,7 @@ cloudMesh: [
 ]
 generator: {
   octaves: 3
-  persistence: 0.52
+  persistence: 0.55
   scale: 22
   mag: 0.721
   thresh: 1.152
@@ -158,6 +158,7 @@ generator: {
   basaltChance: 0.41
   sandChance: 0.26
   darkChance: 0.39
+  berylChance: 0.33
 }
 sectorSize: 0.4
 allowLaunchSchematics: true
@@ -175,7 +176,7 @@ atmosphereRadOut: 0.3
 accessible: true
 tidaLock: true
 updateLighting: false
-sectorSeed: 6464
+sectorSeed: -1
 bloom: true
 visible: true
 atmosphereColor: 323024
