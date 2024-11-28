@@ -27,7 +27,7 @@
     {
       name: aleph-zero-central,
       top: false,
-      shootY: 20,
+      shootY: 40,
       rotate: true,
       rotateSpeed: 1,
       shootCone: 28,
