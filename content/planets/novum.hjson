@@ -165,7 +165,6 @@ generator: {
 }
 #PARAMETERS====================================
 sectorSize: 0.32
-sectors: 200
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
