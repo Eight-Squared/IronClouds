@@ -2,7 +2,7 @@ type: Wall
 size: 2
 name: Large zinc wall
 description: A big wall.
-health: 8700
+health: 1720
 requirements: [
   ic-zinc/24
 ] 
