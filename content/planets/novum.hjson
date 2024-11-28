@@ -1,6 +1,7 @@
 localizedName: Novum
-description: A recently formed planet, covered in molten metals.
+description: A recently formed planet covered in molten metals.
 alwaysUnlocked: true
+#MESH====================================
 mesh: [
  {
     //water
@@ -89,6 +90,7 @@ mesh: [
     persistence: 0.9
   }
 ]
+#CLOUDMESH=================================
 cloudMesh: [
  {
    //dark
@@ -143,6 +145,7 @@ cloudMesh: [
    thresh: 0.1
   }
 ]
+#GENERATOR===================================
 generator: {
   octaves: 3
   persistence: 0.55
@@ -160,7 +163,9 @@ generator: {
   darkChance: 0.39
   berylChance: 0.33
 }
-sectorSize: 0.4
+#PARAMETERS====================================
+sectorSize: 0.32
+sectors: 200
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
