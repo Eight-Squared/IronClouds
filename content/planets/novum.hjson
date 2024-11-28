@@ -123,7 +123,7 @@ cloudMesh: [
    speed: 9
    radius: 0.17
    divisions: 6
-   color: eb4e1a
+   color: eb4e1add
    octaves: 3
    persistence: 0.1
    scl: 0.05
@@ -159,11 +159,11 @@ generator: {
   sandChance: 0.26
   darkChance: 0.39
 }
-sectorSize: 0.8
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
+sectorSize: 0.4
+allowLaunchSchematics: true
+allowLaunchToNumbered: true
+allowLaunchLoadout: true
+allowSectorInvasion: true
 autoAssignPlanet: true
 startSector: 12
 orbitSpacing: 1
@@ -184,7 +184,7 @@ hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
-prebuildBase: true
+prebuildBase: false
 defaultCore: core-newcome
 parent: sun
 solarSystem: sun
@@ -197,5 +197,10 @@ itemWhitelist: [
   "ic-monazite",
   "ic-mafic",
   "ic-tantalum",
-  "ic-rhenium"
+  "ic-rhenium",
+  "ic-sulfide",
+  "ic-chloride",
+  "ic-rutile",
+  "ic-cadweldium",
+  "ic-exothermium"
 ]
