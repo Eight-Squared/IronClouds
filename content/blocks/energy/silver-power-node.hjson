@@ -8,7 +8,7 @@ placeableLiquid: false
 consumesPower: true
 outputsPower: true
 consumes: {
-    powerBuffered: 0
+    powerBuffered: 1500
     }
 requirements: [
     ic-zinc/3
