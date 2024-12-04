@@ -1,6 +1,7 @@
 type: GenericCrafter
 name: Silver reassembler
 hasLiquids: true
+hasLiquid: true
 drawer: 
 {
 type: DrawMulti
