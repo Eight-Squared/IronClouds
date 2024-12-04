@@ -1,0 +1,53 @@
+  type: GenericCrafter
+  name: Pressure chamber
+  size: 4
+  itemCapacity: 20
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+    ]
+  }
+  craftEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 25
+        lifetime: 60
+        offset: 60
+        length: -180
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 0
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+  craftTime: 100
+  updateEffect: none
+  consumes: {
+    power: 1
+    items: {
+      items: [
+      ic-mafic/2
+      ic-gangue/1
+      ]
+    }
+  }
+  requirements: [
+    ic-zinc/150
+    ic-silver/200
+    ic-sulfide/20
+  ]
+  category: crafting
+  outputItem: ic-chloride/1
+  squareSprite: true
+  research: sulfide-mixer
+  researchCost: [
+  ic-zinc/1500
+  ic-silver/2000
+  ic-sulfide/200
+  ]
