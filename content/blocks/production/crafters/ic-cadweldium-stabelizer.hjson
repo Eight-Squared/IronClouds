@@ -16,25 +16,68 @@
         type: DrawGlowRegion
         suffix: -glowa
       }
-      {
-        type: DrawParticles
-        color: 66B1FFFF
-        alpha: 0.4
-        blending: additive
-        particleSize: 5
-        reverse: true
-        particleRad: 23
-        particles: 22
-        fadeMargin: 1
-        rotateScl: 7
-        particleLife: 60
-      }
     ]
   }
   craftEffect: {
         type: ParticleEffect
+        offsetX: 0
+        offsetY: -10
         line: true
-        particles: 25
+        particles: 6
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+{
+        type: ParticleEffect
+        offsetX: 0
+        offsetY: 10
+        line: true
+        particles: 6
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+{
+        type: ParticleEffect
+        offsetX: 10
+        offsetY: 0
+        line: true
+        particles: 6
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+{
+        type: ParticleEffect
+        offsetX: -10
+        offsetY: 0
+        line: true
+        particles: 6
         lifetime: 30
         offset: 60
         length: 120
