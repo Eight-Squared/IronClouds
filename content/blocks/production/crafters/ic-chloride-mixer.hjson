@@ -10,24 +10,24 @@
       }
     ]
   }
-  craftEffect: {
+  craftEffect: none
+  craftTime: 100
+  updateEffect: {
         type: ParticleEffect
         line: true
-        particles: 25
-        lifetime: 60
+        particles: 4
+        lifetime: -60
         offset: 60
-        length: -180
+        length: 100
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
-        strokeFrom: 2.5
-        sizeFrom: 0
-        sizeTo: 20
-        colorFrom: 66B1FFFF
-        colorTo: 66B1FFFF
+        lightColor: f0f0f7aa
+        strokeFrom: 3
+        sizeFrom: 20
+        sizeTo: 0
+        colorFrom: b1b2c7
+        colorTo: f0f0f7
       }
-  craftTime: 100
-  updateEffect: none
   consumes: {
     power: 1
     items: {
