@@ -15,8 +15,8 @@
   updateEffect: {
         type: ParticleEffect
         line: true
-        particles: 4
-        lifetime: -60
+        particles: 10
+        lifetime: 60
         offset: 60
         length: 100
         cone: -360
