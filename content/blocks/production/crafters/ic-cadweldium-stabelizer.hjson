@@ -1,0 +1,75 @@
+  type: GenericCrafter
+  name: Cadweldium stabelizer
+  size: 4
+  itemCapacity: 10
+  drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      }
+      {
+        type: DrawFlame
+        flameColor: 8590a6ae
+      }
+      {
+        type: DrawGlowRegion
+        suffix: -glowa
+      }
+      {
+        type: DrawParticles
+        color: 66B1FFFF
+        alpha: 0.4
+        blending: additive
+        particleSize: 5
+        reverse: true
+        particleRad: 23
+        particles: 22
+        fadeMargin: 1
+        rotateScl: 7
+        particleLife: 60
+      }
+    ]
+  }
+  craftEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 25
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: 66B1FFFF
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 66B1FFFF
+        colorTo: 66B1FFFF
+      }
+  craftTime: 40
+  updateEffect: none
+  consumes: {
+    power: 1
+    items: {
+      items: [
+      ic-zinc/1
+      ic-monazite/2
+      ]
+    }
+    liquid: {
+      liquid: ic-molten-uranium
+      amount: 1.2
+    }
+  }
+  requirements: [
+    ic-zinc/90
+  ]
+  category: crafting
+  outputItem: ic-rhenium/2
+  squareSprite: false
+  research: silver-reassembler
+  researchCost: [
+  ic-zinc/500
+  ic-silver/600
+  ]
