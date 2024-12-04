@@ -1,0 +1,22 @@
+name: Power connector
+type: beamNode
+health: 50
+size: 1
+range: 7
+fogRadius: 1
+placeableLiquid: false
+consumesPower: true
+outputsPower: true
+consumes: {
+    powerBuffered: 200
+}
+requirements: [
+    ic-zinc/3
+    ic-silver/6
+]
+category: power
+research: core-newcome
+researchCost: [
+    ic-zinc/30
+    ic-silver/60
+]
