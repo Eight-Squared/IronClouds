@@ -1,0 +1,47 @@
+type: GenericCrafter
+name: Silver reassembler
+drawer: 
+{
+type: DrawMulti
+drawers: 
+[
+{
+type: DrawDefault
+}
+]
+}
+  size: 2
+  hasLiquid: true
+  liquidCapacity: 80
+  itemCapacity: 10
+  craftEffect: {
+    type: ParticleEffect
+    particles: 6
+    length: 20
+    baseLength: 20
+    offset: 3
+    cone: 360
+    lifetime: 28
+    sizeFrom: 2
+    sizeTo: 0
+    colorTo: 093e59ff
+    colorFrom: 093e59ff
+  }
+  craftTime: 100
+  updateEffect: none
+  consumes: {
+    liquid: {
+      liquid: ic-molten-silver
+      amount: 0.5
+    }
+  }
+  requirements: [
+    ic-zinc/50
+  ]
+  category: crafting
+  outputItem: ic-silver/2
+  squareSprite: false
+  research: light-drill
+  researchCost: [
+  ic-zinc/300
+  ]
