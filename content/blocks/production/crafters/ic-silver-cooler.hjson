@@ -8,6 +8,12 @@ drawers:
 {
 type: DrawDefault
 }
+{
+type: DrawLiquidRegion
+drawLiquid: ic-molten-silver
+suffix: -liquid
+alpha: 0.85
+}
 ]
 }
   size: 2
