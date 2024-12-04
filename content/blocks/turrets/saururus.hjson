@@ -4,9 +4,7 @@ description: Brings destruction with its blossom.
 size: 3
 squareSprite: false
 consumes: {
-  liquid: [
-  ic-molten-uranium/2
-  ]
+  liquid: ic-molten-uranium/1
   power: 3
 }
 shootWarmupSpeed: 0.05
