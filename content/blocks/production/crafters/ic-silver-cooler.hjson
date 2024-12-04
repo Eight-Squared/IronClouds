@@ -1,5 +1,6 @@
 type: GenericCrafter
 name: Silver reassembler
+hasLiquids: true
 drawer: 
 {
 type: DrawMulti
@@ -17,7 +18,6 @@ alpha: 0.85
 ]
 }
   size: 2
-  hasLiquid: true
   liquidCapacity: 80
   itemCapacity: 10
   craftEffect: {
