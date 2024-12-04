@@ -18,7 +18,7 @@
       }
     ]
   }
-  craftEffect: {
+  craftEffect: [ {
         type: ParticleEffect
         offsetX: 0
         offsetY: -10
@@ -89,8 +89,8 @@
         sizeTo: 20
         colorFrom: 66B1FFFF
         colorTo: 66B1FFFF
-      }
-  craftTime: 40
+      } ]
+  craftTime: 100
   updateEffect: none
   consumes: {
     power: 1
@@ -99,10 +99,6 @@
       ic-zinc/1
       ic-monazite/2
       ]
-    }
-    liquid: {
-      liquid: ic-molten-uranium
-      amount: 1.2
     }
   }
   requirements: [
