@@ -29,12 +29,12 @@
         length: 120
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
+        lightColor: a1628b
         strokeFrom: 2.5
         sizeFrom: 20
         sizeTo: 20
-        colorFrom: 66B1FFFF
-        colorTo: 66B1FFFF
+        colorFrom: a1628b
+        colorTo: a1628b
       }
 {
         type: ParticleEffect
@@ -47,12 +47,12 @@
         length: 120
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
+        lightColor: a1628b
         strokeFrom: 2.5
         sizeFrom: 20
         sizeTo: 20
-        colorFrom: 66B1FFFF
-        colorTo: 66B1FFFF
+        colorFrom: a1628b
+        colorTo: a1628b
       }
 {
         type: ParticleEffect
@@ -65,12 +65,12 @@
         length: 120
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
+        lightColor: a1628b
         strokeFrom: 2.5
         sizeFrom: 20
         sizeTo: 20
-        colorFrom: 66B1FFFF
-        colorTo: 66B1FFFF
+        colorFrom: a1628b
+        colorTo: a1628b
       }
 {
         type: ParticleEffect
@@ -83,15 +83,32 @@
         length: 120
         cone: -360
         strokeTo: 0
-        lightColor: 66B1FFFF
+        lightColor: a1628b
         strokeFrom: 2.5
         sizeFrom: 20
         sizeTo: 20
-        colorFrom: 66B1FFFF
-        colorTo: 66B1FFFF
+        colorFrom: a1628b
+        colorTo: a1628b
       } ]
   craftTime: 100
-  updateEffect: none
+  updateEffect: {
+        type: ParticleEffect
+        offsetX: -10
+        offsetY: 0
+        line: false
+        particles: 6
+        lifetime: 30
+        offset: 60
+        length: 120
+        cone: -360
+        strokeTo: 0
+        lightColor: a1628b
+        strokeFrom: 2.5
+        sizeFrom: 20
+        sizeTo: 20
+        colorFrom: 854975
+        colorTo: 6b3b5e
+      }
   consumes: {
     power: 1
     items: {
@@ -105,7 +122,7 @@
     ic-zinc/90
   ]
   category: crafting
-  outputItem: ic-rhenium/2
+  outputItem: ic-exothermite/2
   squareSprite: false
   research: silver-reassembler
   researchCost: [
