@@ -40,7 +40,7 @@ drawer: {
   ]
 }
 consumes: {
-  liquid: ic-mollten-silver/0.05
+  liquid: ic-molten-silver/0.05
 }
 coolant: {
   type: ConsumeCoolant
