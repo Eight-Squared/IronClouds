@@ -1,0 +1,124 @@
+type: ItemTurret
+name: Cicer
+description: Fires a single powerful piercing shell at enemies over large distances. Requires pressure. 
+size: 3
+squareSprite: false
+reload: 70
+range: 320
+shootSound: shoot-big-artillery
+shootEffect: shootBig
+smokeEffect: shootSmokeTitan
+category: turret
+outlineColor: 42413e
+research: {
+   parent: core-newcome
+}
+requirements: [
+  ic-zinc/60
+  ic-silver/75
+]
+drawer: {
+  type: DrawTurret
+  basePrefix: ironcl-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -2
+    }
+    {
+      type: RegionPart
+      suffix: -midbarrel
+      mirror: false
+      under: false
+      progress: recoil
+      moveY: -2
+    }
+  ]
+}
+consumes: {
+  liquid: ic-mollten-silver/0.05
+}
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+ammoTypes: {
+  ic-zinc: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 67
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.5
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 69
+      splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
+    }
+  }
+  ic-cadweldium: {
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    despawnSound: shoot-dull
+    type: BasicBulletType
+    speed: 4
+    lifetime: 80
+    damage: 90
+    pierce: true
+    pierceBuilding: true
+    buildingDamageMultiplier: 0.5
+    width: 9
+    height: 15
+    trailChance: -1
+    trailEffect: shootSmokeTitan
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 16
+    trailWidth: 3
+    fragBullets: 1
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragRandomSpread: 0
+    fragSpread: 0
+    fragAngle: 0
+    fragOnHit: false
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 78
+      splashDamageRadius: 24
+      buildingDamageMultiplier: 0.5
+    }
+  }
+}
