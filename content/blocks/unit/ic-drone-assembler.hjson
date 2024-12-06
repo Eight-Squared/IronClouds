@@ -8,6 +8,8 @@
       unit: candle
       requirements: [
         ic-zinc/80
+        ic-silver/60
+        ic-sulfide/45
       ]
       time: 900
     }
@@ -20,5 +22,7 @@
   category: units
   research: core-newcome
   researchCost: [
-    ic-zinc/1
+    ic-zinc/1500
+    ic-silver/2000
+    ic-sulfide/400
   ]
