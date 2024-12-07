@@ -6,7 +6,7 @@ health: 45
 fadeIn: false
 moveArrows: true
 arrowSpacing: 5
-range: 4
+range: 5
 hasPower: false
 category: liquid
 research: low-pressure-router
