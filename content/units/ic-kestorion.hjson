@@ -1,0 +1,102 @@
+type: legs
+name: Kestorion
+description: Big spooder.
+hitSize: 22
+health: 6750
+outlineColor: 1f2126
+armor: 9
+research: candle
+legCount: 6
+legMoveSpace: 1
+legPairOffset: 2
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff35
+    outline: false
+    mirror: false
+  }
+]
+legLength: 30
+legExtension: -15
+legBaseOffset: 10
+stepShake: 1
+legLengthScl: 0.96
+rippleScale: 2
+legSpeed: 0.6
+drag: 0.1
+speed: 1
+rotateSpeed: 2.4
+hovering: false
+drownTimeMultiplier: 3
+itemCapacity: 100
+weapons: [
+  {
+    x: 10
+    name: ic-kestorion-biggun
+    y: 7
+    reload: 20
+    shootSound: shoot-heavy-cannon
+    mirror: true
+    alternate: true
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff33
+        outline: false
+        mirror: false
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 8
+      lifetime: 26
+      frontColor: 9be98b
+      backColor: 69a25e
+      trailWidth: 1
+      trailLength: 16
+      trailColor: 69a25e
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      fragOnHit: false
+      damage: 40
+    }
+  }
+  {
+    name: ic-kestorion-gun
+    x: 3
+    y: 12
+    reload: 20
+    shoot: {
+      shots: 2
+    }
+    inaccuracy: 9
+    mirror: false
+    rotate: false
+    shootCone: 90
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      speed: 1.5
+      lifetime: 120
+      trailColor: 69a25e
+      backColor: 69a25e
+      frontColor: 9be98b
+      damage: 3
+      width: 12
+      height: 17
+      collidesTeam: true
+      healPercent: 2
+      splashDamage: 3
+      splashDamageRadius: 16
+    }
+  }
+]
