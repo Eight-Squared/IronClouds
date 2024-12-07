@@ -12,7 +12,7 @@ legPairOffset: 2
 parts: [
   {
     type: RegionPart
-    suffix: -glow
+    suffix: -glowc
     blending: additive
     color: ffffff35
     outline: false
