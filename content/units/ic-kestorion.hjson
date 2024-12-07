@@ -6,7 +6,7 @@ health: 6750
 outlineColor: 1f2126
 armor: 9
 research: candle
-legCount: 6
+legCount: 8
 legMoveSpace: 1
 legPairOffset: 3
 faceTarget: true
