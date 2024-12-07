@@ -93,19 +93,20 @@ weapons: [
     shootCone: 20
     shootSound: artillery
     bullet: {
-      type: ArtilleryBulletType
-      speed: 1.5
+      type: BasicBulletType
+      speed: 10
       lifetime: 120
-      trailColor: 69a25e
-      backColor: 69a25e
-      frontColor: 9be98b
-      damage: 3
+      trailColor: f0f0f7
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      damage: 20
       width: 12
       height: 17
-      collidesTeam: true
-      healPercent: 2
-      splashDamage: 3
+      splashDamage: 5
       splashDamageRadius: 16
+      homingPower:0.3
+      homingDelay: 5
+      homingRange: 45
     }
   }
 ]
