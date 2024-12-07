@@ -6,7 +6,7 @@ health: 6750
 outlineColor: 1f2126
 armor: 9
 research: candle
-legCount: 8
+legCount: 6
 legMoveSpace: 1
 legPairOffset: 3
 faceTarget: true
@@ -25,13 +25,13 @@ legContinuousMove: true
 legSplashDamage: 2
 legSplashRange: 1
 baseLegStraightness: 1
-legLength: 30
-legExtension: -12
+legLength: 40
+legExtension: -15
 legBaseOffset: 16
 stepShake: 0
 legLengthScl: 0.96
 rippleScale: 2
-legSpeed: 1
+legSpeed: 0.8
 drag: 0.1
 speed: 1.4
 rotateSpeed: 2
@@ -94,8 +94,8 @@ weapons: [
     shootSound: artillery
     bullet: {
       type: BasicBulletType
-      speed: 10
-      lifetime: 120
+      speed: 5
+      lifetime: 60
       trailColor: f0f0f7
       frontColor: f0f0f7
       backColor: c5c7d9
