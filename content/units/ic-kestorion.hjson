@@ -26,14 +26,14 @@ legSplashDamage: 2
 legSplashRange: 1
 baseLegStraightness: 1
 legLength: 30
-legExtension: -3
+legExtension: -12
 legBaseOffset: 16
-stepShake: 1
+stepShake: 0
 legLengthScl: 0.96
 rippleScale: 2
 legSpeed: 1
 drag: 0.1
-speed: 1
+speed: 1.4
 rotateSpeed: 2
 hovering: false
 drownTimeMultiplier: 3
@@ -43,8 +43,10 @@ weapons: [
     x: 16
     name: ic-kestorion-biggun
     y: 5
-    layerOffset: -1
     reload: 20
+    shoot: {
+      shots: 2
+    }
     shootSound: shoot-heavy-cannon
     mirror: true
     alternate: true
@@ -79,8 +81,8 @@ weapons: [
   }
   {
     name: ic-kestorion-gun
-    x: 3
-    y: 12
+    x: 5
+    y: 15
     reload: 20
     shoot: {
       shots: 2
