@@ -6,37 +6,44 @@ health: 6750
 outlineColor: 1f2126
 armor: 9
 research: candle
-legCount: 6
+legCount: 8
 legMoveSpace: 1
-legPairOffset: 2
+legPairOffset: 3
+faceTarget: true
+healFlash: false
 parts: [
   {
     type: RegionPart
     suffix: -glowc
     blending: additive
-    color: ffffff35
+    color: ffffff88
     outline: false
     mirror: false
   }
 ]
+legContinuousMove: true
+legSplashDamage: 2
+legSplashRange: 1
+baseLegStraightness: 1
 legLength: 30
-legExtension: -15
-legBaseOffset: 10
+legExtension: -3
+legBaseOffset: 16
 stepShake: 1
 legLengthScl: 0.96
 rippleScale: 2
-legSpeed: 0.6
+legSpeed: 1
 drag: 0.1
 speed: 1
-rotateSpeed: 2.4
+rotateSpeed: 2
 hovering: false
 drownTimeMultiplier: 3
 itemCapacity: 100
 weapons: [
   {
-    x: 10
+    x: 16
     name: ic-kestorion-biggun
-    y: 7
+    y: 5
+    layerOffset: -1
     reload: 20
     shootSound: shoot-heavy-cannon
     mirror: true
@@ -46,7 +53,7 @@ weapons: [
         type: RegionPart
         suffix: -glow
         blending: additive
-        color: ffffff33
+        color: ffffff88
         outline: false
         mirror: false
       }
@@ -56,18 +63,18 @@ weapons: [
       layer: 111
       width: 6
       height: 72
-      speed: 8
-      lifetime: 26
-      frontColor: 9be98b
-      backColor: 69a25e
-      trailWidth: 1
-      trailLength: 16
-      trailColor: 69a25e
+      speed: 9
+      lifetime: 30
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      trailWidth: 2
+      trailLength: 15
+      trailColor: f0f0f7
       pierce: true
       pierceBuilding: true
-      pierceCap: 2
+      pierceCap: 3
       fragOnHit: false
-      damage: 40
+      damage: 50
     }
   }
   {
@@ -79,9 +86,9 @@ weapons: [
       shots: 2
     }
     inaccuracy: 9
-    mirror: false
+    mirror: true
     rotate: false
-    shootCone: 90
+    shootCone: 20
     shootSound: artillery
     bullet: {
       type: ArtilleryBulletType
