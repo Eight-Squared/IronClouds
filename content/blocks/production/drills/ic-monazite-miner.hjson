@@ -1,6 +1,6 @@
 type: WallCrafter
 name: Monazite miner
-description: Mines [#75414a]monazite[] slowly from [#75414a]monazite walls[].
+description: "Mines [#75414a]monazite[] slowly from [#75414a]monazite walls[]."
 size: 2
 category: production
 research: light-drill
