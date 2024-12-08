@@ -8,6 +8,7 @@ research: ic-overflow-distributor
 researchCost: [
 ic-zinc/200
 ic-silver/100
+]
 requirements: [
 ic-zinc/8
 ic-silver/4
