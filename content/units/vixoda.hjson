@@ -135,19 +135,6 @@
             amount: 0.75
           }
       }
-      {
-        type: RegionPart
-        x: 20
-        y: -20
-        suffix: -lever
-        outline: true
-        mirror: true
-          progress: {
-            type: warmup
-            op: blend
-            amount: 0.75
-          }
-      }
     ]
     bullet: {
       type: BasicBulletType
