@@ -11,11 +11,11 @@ author: "Eight Squared"
 #main: ""
 
 #the mod description as seen in the mod dialog
-description: "UNFINISHED New campaign on a molten planet."
-subtitle: "UNFINISHED New campaign on a molten planet."
+description: "[red]UNFINISHED [yellow]20% done[] Adds new campaign on a molten planet. [red]Beware![] The mod adds a lot of sprite changes to the vanilla content![]"
+subtitle: "UNFINISHED 20%"
 
 #the mod version
-version: 0.build
+version: 110.build
 
 #the minimum game build required to run this mod
 minGameVersion: 145
