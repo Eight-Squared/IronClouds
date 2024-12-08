@@ -1,0 +1,14 @@
+type: OverflowGate
+name: Underflow distributor
+description: Works like an Overflow Controller but inverted.
+health: 80
+category: distribution
+invert: true
+research: ic-overflow-distributor
+researchCost: [
+ic-zinc/200
+ic-silver/100
+requirements: [
+ic-zinc/8
+ic-silver/4
+]
