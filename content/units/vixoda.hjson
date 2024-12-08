@@ -82,8 +82,23 @@
           }
         }
       ]
-      bullet: {
-        type: basicBulletType
-      }
+    bullet: {
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 9
+      lifetime: 30
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      trailWidth: 2
+      trailLength: 15
+      trailColor: f0f0f7
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      fragOnHit: false
+      damage: 50
+    }
     }
   ]
