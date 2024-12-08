@@ -131,8 +131,6 @@
         moveRot: -12
           progress: {
             type: warmup
-            op: blend
-            amount: 0.75
           }
       }
     ]
