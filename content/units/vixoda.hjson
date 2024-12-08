@@ -1,4 +1,4 @@
-    research: candlae
+    research: candle
     researchCost: [
       ic-zinc/5300
     ]
@@ -45,9 +45,7 @@
       warmup: 60
       recoil: 2
       shoot: {
-        type: shootPattern
-        shots: 8
-        shotDelay: 3
+        shots: 2
       }
       layerOffset: -0.001
       inaccuracy: 1
