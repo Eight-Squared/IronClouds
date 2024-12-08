@@ -15,23 +15,52 @@
   health: 82400
   hitSize: 74
   armor: 20
-  engineOffset: 68
+    parts: [
+#GLOWS===================================
+      {
+        type: RegionPart
+        suffix: -frontglow
+        blending: additive
+        color: ffffff8d
+        outline: false
+        mirror: false
+      }
+      {
+        type: RegionPart
+        suffix: -backglow
+        blending: additive
+        color: ffffff8d
+        outline: false
+        mirror: false
+      }
+      {
+        type: RegionPart
+        suffix: -cellglow
+        blending: additive
+        color: ffffff66
+        outline: false
+        mirror: false
+      }
+    ]
+#ENGINES==============================
+  #engineOffset: 68
   engines: [
     {
-      x: -10
-      y: -30
+      x: -4
+      y: -16
       radius: 7
     }
     {
-      x: 19
-      y: -60
+      x: 4
+      y: -16
       radius: 7
     }
   ]
+#WEAPONS================================
   range: 180
   maxRange: 180
   aimDst: 140
-  engineSize: 6
+  #engineSize: 6
   weapons: [
     {
     x: 16
