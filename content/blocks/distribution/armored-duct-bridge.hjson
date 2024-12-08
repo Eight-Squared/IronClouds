@@ -1,15 +1,17 @@
 type: DuctBridge
 name: Duct bridge
 description: Acts as a bridge for crossing ducts or terrain.
-health: 60
+health: 80
 size: 1
 requirements: [
-  ic-zinc/8
+ic-zinc/8
+ic-silver/8
 ] 
 category: distribution
 research: armored-router
 researchCost: [
-  ic-zinc/100
+ic-zinc/200
+ic-silver/200
 ]
 squareSprite: false
 range: 5
