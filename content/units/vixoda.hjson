@@ -21,7 +21,7 @@
         type: RegionPart
         suffix: -frontglow
         blending: additive
-        color: ffffff8d
+        color: ffffff77
         outline: false
         mirror: false
       }
@@ -29,7 +29,7 @@
         type: RegionPart
         suffix: -backglow
         blending: additive
-        color: ffffff8d
+        color: ffffff55
         outline: false
         mirror: false
       }
@@ -37,7 +37,7 @@
         type: RegionPart
         suffix: -cellglow
         blending: additive
-        color: ffffff66
+        color: ffffff33
         outline: false
         mirror: false
       }
@@ -46,14 +46,8 @@
   #engineOffset: 68
   engines: [
     {
-      x: -4
       y: -16
-      radius: 7
-    }
-    {
-      x: 4
-      y: -16
-      radius: 7
+      radius: 8
     }
   ]
 #WEAPONS================================
@@ -73,6 +67,47 @@
     shootSound: shoot-heavy-cannon
     mirror: true
     alternate: true
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff88
+        outline: false
+        mirror: false
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 9
+      lifetime: 30
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      trailWidth: 2
+      trailLength: 15
+      trailColor: f0f0f7
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      fragOnHit: false
+      damage: 50
+    }
+  }
+#A============================
+    {
+    name: ic-kestorion-biggun
+    x: 0
+    y: 12
+    reload: 20
+    shoot: {
+      shots: 2
+    }
+    shootSound: shoot-heavy-cannon
+    mirror: false
+    alternate: false
     parts: [
       {
         type: RegionPart
