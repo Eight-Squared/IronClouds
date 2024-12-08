@@ -2,7 +2,6 @@
     researchCost: [
       ic-zinc/5300
     ]
-  }
   singleTarget: true
   faceTarget: true
   outlineColor: 1f2126
