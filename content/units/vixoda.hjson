@@ -34,54 +34,26 @@
   engineSize: 6
   weapons: [
     {
-      name: vixoda-weapon
-      y: 13
-      rotationLimit: 0
-      smoothReloadSpeed: 0.15
-      shootWarmupSpeed: 0.05
-      minWarmup: 0.9
-      shootY: 14
-      reload: 50
-      warmup: 60
-      recoil: 2
-      shoot: {
-        shots: 2
+    x: 16
+    name: ic-kestorion-biggun
+    y: 5
+    reload: 20
+    shoot: {
+      shots: 2
+    }
+    shootSound: shoot-heavy-cannon
+    mirror: true
+    alternate: true
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff88
+        outline: false
+        mirror: false
       }
-      layerOffset: -0.001
-      inaccuracy: 1
-      shootSound: bolt
-      mirror: false
-      rotate: false
-      parts: [
-        {
-          type: RegionPart
-          suffix: -lever
-          x: 7
-          mirror: true
-          moveX: -5
-          moveY: -5
-          progress: {
-            type: warmup
-            op: blend
-            other: reload
-            amount: 0.75
-          }
-        }
-        {
-          type: RegionPart
-          suffix: -case
-          y: 13
-          x: 3
-          mirror: true
-          moveX: -2
-          moveY: -2
-          moveRot: 12
-          progress: {
-            type: warmup
-            op: blend
-          }
-        }
-      ]
+    ]
     bullet: {
       type: BasicBulletType
       layer: 111
@@ -100,5 +72,5 @@
       fragOnHit: false
       damage: 50
     }
-    }
+  }
   ]
