@@ -14,3 +14,4 @@ researchCost: [
 squareSprite: false
 range: 5
 speed: 6
+moveArrows: true
