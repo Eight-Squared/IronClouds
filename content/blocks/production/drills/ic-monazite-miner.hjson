@@ -1,0 +1,16 @@
+type: WallCrafter
+name: Monazite miner
+description: Mines [#75414a]monazite[] slowly from [#75414a]monazite walls[].
+size: 2
+category: production
+research: light-drill
+requirements: [
+  ic-zinc/20
+  ic-silver/15
+]
+drillTime: 220
+output: ic-monazite
+attribute: ic-monazite-attribute
+ambientSound: drill
+ambientSoundVolume: 0.07
+squareSprite: false
