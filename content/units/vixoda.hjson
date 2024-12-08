@@ -107,7 +107,7 @@
     shoot: {
       shots: 2
     }
-    minWarmup: 1.2
+    minWarmup: 0.2
     shootWarmupSpeed: 0.2
     shootSound: shoot-heavy-cannon
     mirror: false
@@ -123,8 +123,9 @@
       }
       {
         type: RegionPart
-        name: vixoda-weapon-case
-        color: ffffff88
+        x: 5
+        y: -1
+        suffix: -case
         outline: true
         mirror: true
         moveRot: -12
