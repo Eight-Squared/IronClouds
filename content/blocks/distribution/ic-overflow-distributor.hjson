@@ -1,0 +1,13 @@
+type: OverflowGate
+name: Overflow distributor
+description: Outputs items to the sides if the front path is blocked.
+category: distribution
+research: armored-router
+researchCost: [
+ic-zinc/200
+ic-silver/100
+]
+requirements: [
+  ic-zinc/8
+  ic-silver/4
+]
