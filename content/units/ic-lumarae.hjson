@@ -1,11 +1,13 @@
   name: Lumarae
+  description: "Serves as a bright light source, which is necessary under Novum's thick and dark atmosphere. Is not able to discover the fog. 
   type: hover
   speed: 2.9
   fogRadius: 0
   lightColor: f6f6fd
-  lightRadius: 50
-  lightOpacity: 0.85
-  outlineColor: 1f2126aa
+  lightRadius: 300
+  lightOpacity: 0.72
+  healFlash: false
+  outlineColor: 1f2126
   hitSize: 18
   health: 560
   mineSpeed: 0
@@ -39,7 +41,7 @@
     }
     {
       type: hoverPart
-      color: 66B1FFFF
+      color: c5c7d9
       layerOffset: -1
       x: 6
       phase: 90
@@ -50,7 +52,7 @@
     }
     {
       type: hoverPart
-      color: 66B1FFFF
+      color: f0f0f7
       layerOffset: -1
       x: 6
       phase: 90
