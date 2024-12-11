@@ -1,7 +1,11 @@
   name: Lumarae
   type: hover
   speed: 2.9
-  outlineColor: 414452FF
+  fogRadius: 0
+  lightColor: f6f6fd
+  lightRadius: 50
+  lightOpacity: 0.85
+  outlineColor: 1f2126aa
   hitSize: 18
   health: 560
   mineSpeed: 0
