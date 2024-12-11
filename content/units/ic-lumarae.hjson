@@ -19,10 +19,8 @@
   hovering: true
   shadowElevation: 0.1
   useEngineElevation: false
-  engineSize: 2
-  engineOffset: 7
-  trailColor: 66B1FFFF
-  trailLength: 6
+  engineSize: 3
+  engineOffset: 8
   engineColor: 66B1FFFF
   rotateSpeed: 3
   parts: [
