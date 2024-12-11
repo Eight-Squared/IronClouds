@@ -1,0 +1,112 @@
+type: legs
+name: Videstra
+description: Big spooder.
+hitSize: 20
+health: 6750
+outlineColor: 1f2126
+armor: 9
+research: candle
+legCount: 4
+legMoveSpace: 1
+legPairOffset: 3
+faceTarget: true
+healFlash: false
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ffffff88
+    outline: false
+    mirror: false
+  }
+]
+legContinuousMove: true
+legSplashDamage: 2
+legSplashRange: 1
+baseLegStraightness: 1
+legLength: 30
+legExtension: -15
+legBaseOffset: 16
+stepShake: 0
+legLengthScl: 0.96
+rippleScale: 2
+legSpeed: 0.8
+drag: 0.1
+speed: 1.4
+rotateSpeed: 2
+hovering: false
+drownTimeMultiplier: 3
+itemCapacity: 100
+weapons: [
+  {
+    x: 16
+    name: ic-kestorion-biggun
+    y: 5
+    reload: 20
+    shoot: {
+      shots: 2
+    }
+    shootSound: shoot-heavy-cannon
+    mirror: true
+    alternate: true
+    parts: [
+      {
+        type: RegionPart
+        suffix: -glow
+        blending: additive
+        color: ffffff88
+        outline: false
+        mirror: false
+      }
+    ]
+    bullet: {
+      type: BasicBulletType
+      layer: 111
+      width: 6
+      height: 72
+      speed: 9
+      lifetime: 30
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      trailWidth: 2
+      trailLength: 15
+      trailColor: f0f0f7
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      fragOnHit: false
+      damage: 50
+    }
+  }
+  {
+    name: ic-kestorion-gun
+    x: 5
+    y: 15
+    reload: 20
+    shoot: {
+      shots: 2
+    }
+    inaccuracy: 9
+    mirror: true
+    rotate: false
+    shootCone: 20
+    shootSound: artillery
+    bullet: {
+      type: BasicBulletType
+      speed: 5
+      lifetime: 60
+      trailColor: f0f0f7
+      frontColor: f0f0f7
+      backColor: c5c7d9
+      damage: 20
+      width: 12
+      height: 17
+      splashDamage: 5
+      splashDamageRadius: 16
+      homingPower:0.3
+      homingDelay: 5
+      homingRange: 45
+    }
+  }
+]
