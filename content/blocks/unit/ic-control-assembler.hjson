@@ -1,0 +1,29 @@
+  type: UnitFactory
+  name: Control assembly
+  size: 2
+  consumes: {
+    power: 2
+  }
+  plans: [
+    {
+      unit: ic-lumarae
+      requirements: [
+        ic-zinc/80
+        ic-silver/60
+        ic-sulfide/45
+      ]
+      time: 900
+    }
+  ]
+  requirements: [  
+    ic-zinc/150
+    ic-silver/200
+    ic-sulfide/40
+  ]
+  category: units
+  research: core-newcome
+  researchCost: [
+    ic-zinc/1500
+    ic-silver/2000
+    ic-sulfide/400
+  ]
