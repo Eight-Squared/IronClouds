@@ -1,5 +1,5 @@
   name: Lumarae
-  description: "Serves as a bright light source, which is necessary under Novum's thick and dark atmosphere. Is not able to discover the fog. 
+  description: "Serves as a bright light source, which is necessary under Novum's thick and dark atmosphere. Is not able to discover the fog."
   type: hover
   speed: 2.9
   fogRadius: 0
