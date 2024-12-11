@@ -1,6 +1,6 @@
 type: Conduit
 name: Low pressure conduit
-description: "A conduit made of zinc. Has a throughput of [416c96]50 liquid units[]/second."
+description: "A conduit made of zinc. Has a throughput of [#416c96]50 liquid units[]/second."
 category: liquid
 research: tungsten-pump
 researchCost: [
