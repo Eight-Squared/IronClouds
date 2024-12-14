@@ -1,0 +1,18 @@
+type: StorageBlock
+size: 2
+name: Armored container
+health: 940
+description: Stores items in medium quantities.
+itemCapacity: 500
+category: effect
+research: armored-router
+requirements: [
+ic-cobalt/150
+ic-zinc/90
+]
+squareSprite: false
+researchCost: [
+ic-cobalt/4000
+ic-zinc/3000
+]
+fogRadius: 6
