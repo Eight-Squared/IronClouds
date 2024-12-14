@@ -16,3 +16,6 @@ unitCapModifier: 5
 category: effect
 research: novum-lore
 requiresUnlock: false
+emitLight: true
+lightRadius: 500
+lightColor: 88899e99
