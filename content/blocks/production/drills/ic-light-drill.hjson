@@ -1,0 +1,37 @@
+
+  name: Light drill
+  type: Drill
+  size: 2
+  tier: 1
+  rotateSpeed: 4
+  drillTime: 50
+  liquidBoostIntensity: 1.2
+  drawRim: true
+  heatColor: fc1250
+  warmupSpeed: 0.0478
+  updateEffectChance: 0.05
+  hasLiquids: true
+  liquidCapacity: 25
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.31
+      booster: true
+      optional: true
+    }
+  }
+  requirements: [
+    {
+      item: ic-zinc
+      amount: 25
+    }
+  ]
+  category: production
+  research: core-newcome
+  researchCost: [
+    {
+      item: ic-zinc
+      amount: 10
+    }
+  ]
+  squareSprite: false
