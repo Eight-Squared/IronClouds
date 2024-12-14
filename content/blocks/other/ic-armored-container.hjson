@@ -1,5 +1,5 @@
 type: StorageBlock
-size: 2
+size: 3
 name: Armored container
 health: 940
 description: Stores items in medium quantities.
