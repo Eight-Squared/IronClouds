@@ -1,0 +1,40 @@
+type: StackConveyor
+loadEffect: {
+type: ParticleEffect
+line: true
+particles: 7
+lifetime: 10
+length: 15
+cone: -360
+lenFrom: 5
+lenTo: 0
+colorFrom: 6a97d9
+colorTo: 6a97d9
+}
+unloadEffect: {
+type: ParticleEffect
+line: true
+particles: 7
+lifetime: 10
+length: 15
+cone: -360
+lenFrom: 5
+lenTo: 0
+colorFrom: 6a97d9
+colorTo: 6a97d9
+}
+health: 300
+speed: 0.10
+itemCapacity: 100
+requirements: [
+ic-silver/3
+ic-sulfide/5
+ic-primordial-tungsten/3
+]
+research: zinc-duct
+researchCost: [
+ic-silver/300
+ic-sulfide/500
+ic-primordial-tungsten/300
+]
+category: distribution
