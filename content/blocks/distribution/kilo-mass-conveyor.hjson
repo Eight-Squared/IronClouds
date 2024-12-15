@@ -3,7 +3,7 @@ loadEffect: {
 type: ParticleEffect
 line: true
 particles: 7
-lifetime: 10
+lifetime: 30
 length: 15
 cone: -360
 lenFrom: 5
@@ -15,11 +15,11 @@ unloadEffect: {
 type: ParticleEffect
 line: true
 particles: 7
-lifetime: 10
+lifetime: 40
 length: 15
 cone: -360
 lenFrom: 5
-lenTo: 0
+lenTo: 5
 colorFrom: 6a97d9
 colorTo: 6a97d9
 }
