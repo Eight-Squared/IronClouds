@@ -164,7 +164,7 @@ generator: {
   berylChance: 0.33
 }
 #PARAMETERS====================================
-sectorSize: 0.32
+sectorSize: 1
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
@@ -180,7 +180,7 @@ atmosphereRadOut: 0.3
 accessible: true
 tidaLock: true
 updateLighting: false
-sectorSeed: -1
+sectorSeed: 1
 bloom: true
 visible: true
 atmosphereColor: 323024
