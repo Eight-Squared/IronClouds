@@ -1,4 +1,5 @@
 type: StackConveyor
+name: Kilomass conveyor
 loadEffect: {
 type: ParticleEffect
 line: true
