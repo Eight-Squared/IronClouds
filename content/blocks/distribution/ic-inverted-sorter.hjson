@@ -1,0 +1,14 @@
+type: Sorter
+invert: true
+name: Inverted sorter
+description: Works like a suct sorter but outputs selected items to the sides instead of straight ahead.
+category: distribution
+research: ic-underflow-distributor
+requirements: [
+  ic-zinc/6
+  ic-silver/6
+]
+researchCost: [
+  ic-zinc/200
+  ic-silver/200
+]
