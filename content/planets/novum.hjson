@@ -164,7 +164,7 @@ generator: {
   berylChance: 0.33
 }
 #PARAMETERS====================================
-#sectorSize: 1
+sectorSize: 1
 allowLaunchSchematics: true
 allowLaunchToNumbered: true
 allowLaunchLoadout: true
@@ -172,11 +172,11 @@ allowSectorInvasion: true
 autoAssignPlanet: true
 startSector: 12
 orbitSpacing: 1
-#radius: 1.2
-#minZoom: 1.5
+radius: 1.2
+minZoom: 1.5
 drawOrbit: false
-#atmosphereRadIn: 0
-#atmosphereRadOut: 0.3
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
 accessible: true
 tidaLock: true
 updateLighting: false
